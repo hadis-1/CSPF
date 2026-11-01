@@ -1,0 +1,4 @@
+family,position,reference,pairs,coef,ci_lo,ci_hi
+P01_hedging,sentence-initial,clause-final,309627,0.003,0.0025,0.0035
+P01_hedging,pre-adjective,clause-final,309627,0.0405,0.0385,0.0424
+P04_sarcasm,parenthetical,clause-final,158279,-0.0256,-0.0269,-0.0242

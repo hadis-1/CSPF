@@ -1,0 +1,19 @@
+subset,measure,target,n,n_pos,AUC,ci_lo,ci_hi
+all 325,M1 cosine (= Phi score),meaning-preserving (yes vs rest),325,54.0,0.493,0.416,0.569
+all 325,M1 cosine (= Phi score),meaning-altering (no vs rest),325,43.0,0.681,0.607,0.756
+all 325,M1 cosine (= Phi score),Spearman with ordinal label,325,,0.123,,
+all 325,NLI bidirectional,meaning-preserving (yes vs rest),325,54.0,0.71,0.639,0.779
+all 325,NLI bidirectional,meaning-altering (no vs rest),325,43.0,0.669,0.584,0.753
+all 325,NLI bidirectional,Spearman with ordinal label,325,,0.309,,
+independent 192,M1 cosine (= Phi score),meaning-preserving (yes vs rest),192,32.0,0.478,0.377,0.577
+independent 192,M1 cosine (= Phi score),meaning-altering (no vs rest),192,21.0,0.678,0.577,0.779
+independent 192,M1 cosine (= Phi score),Spearman with ordinal label,192,,0.09,,
+independent 192,NLI bidirectional,meaning-preserving (yes vs rest),192,32.0,0.743,0.642,0.836
+independent 192,NLI bidirectional,meaning-altering (no vs rest),192,21.0,0.672,0.542,0.79
+independent 192,NLI bidirectional,Spearman with ordinal label,192,,0.337,,
+disputed 133,M1 cosine (= Phi score),meaning-preserving (yes vs rest),133,22.0,0.517,0.401,0.638
+disputed 133,M1 cosine (= Phi score),meaning-altering (no vs rest),133,22.0,0.669,0.555,0.783
+disputed 133,M1 cosine (= Phi score),Spearman with ordinal label,133,,0.155,,
+disputed 133,NLI bidirectional,meaning-preserving (yes vs rest),133,22.0,0.65,0.546,0.751
+disputed 133,NLI bidirectional,meaning-altering (no vs rest),133,22.0,0.71,0.597,0.819
+disputed 133,NLI bidirectional,Spearman with ordinal label,133,,0.299,,

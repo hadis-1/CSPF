@@ -1,0 +1,1 @@
+# Generate with: python scripts/record_model_revisions.py docs/model_registry.csv docs/model_revisions.csv  (needs internet), then delete this line.

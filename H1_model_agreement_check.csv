@@ -1,0 +1,15 @@
+,0
+ALBERT,1.0
+BERT,1.0
+BERTweet,1.0
+DistilBERT,1.0
+DistilBERT-IMDb,1.0
+DistilBERT-SST2,1.0
+ELECTRA,1.0
+ModernBERT-sent,0.9995
+RoBERTa,1.0
+RoBERTa-SST2,1.0
+SiEBERT-large,1.0
+TwRoBERTa-latest,1.0
+XLM-R-Twitter,1.0
+XLNet,1.0

@@ -1,0 +1,4 @@
+model,exposed,d_exposed_minus_clean,d_controls,DiD,ci_lo,ci_hi,sig
+BERTweet,"semeval13,semeval16,semeval17",-0.02,-0.0007,-0.0193,-0.0211,-0.0174,True
+SiEBERT-large,"debate08,hcr,semeval13",-0.0354,0.0088,-0.0442,-0.0472,-0.0412,True
+XLM-R-Twitter,"semeval13,semeval16,semeval17",-0.0065,-0.0007,-0.0058,-0.0079,-0.0039,True

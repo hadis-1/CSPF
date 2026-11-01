@@ -1,0 +1,11 @@
+,typo_keyboard,wordnet_synonym,bert_contextual,eda_swap_delete,t5_paraphrase,back_translation,CSPF all families,CSPF propositional families,CSPF meaning-modulating families,CSPF hedging + pragmatic
+typo_keyboard,1.0,0.93,0.7,0.82,0.93,0.83,0.88,0.89,0.54,0.86
+wordnet_synonym,0.93,1.0,0.66,0.81,0.87,0.78,0.84,0.82,0.53,0.79
+bert_contextual,0.7,0.66,1.0,0.89,0.63,0.73,0.67,0.72,0.07,0.66
+eda_swap_delete,0.82,0.81,0.89,1.0,0.69,0.92,0.75,0.74,0.32,0.7
+t5_paraphrase,0.93,0.87,0.63,0.69,1.0,0.68,0.85,0.87,0.59,0.83
+back_translation,0.83,0.78,0.73,0.92,0.68,1.0,0.72,0.73,0.34,0.67
+CSPF all families,0.88,0.84,0.67,0.75,0.85,0.72,1.0,0.97,0.63,0.96
+CSPF propositional families,0.89,0.82,0.72,0.74,0.87,0.73,0.97,1.0,0.52,0.96
+CSPF meaning-modulating families,0.54,0.53,0.07,0.32,0.59,0.34,0.63,0.52,1.0,0.45
+CSPF hedging + pragmatic,0.86,0.79,0.66,0.7,0.83,0.67,0.96,0.96,0.45,1.0

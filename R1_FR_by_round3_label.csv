@@ -1,0 +1,10 @@
+group,pairs,FR,ci_lo,ci_hi
+all matched,272,0.0938,0.0774,0.112
+meaning yes (majority),78,0.0609,0.0394,0.0845
+meaning partial (majority),174,0.1034,0.0822,0.129
+meaning no (majority),20,0.1375,0.0583,0.2344
+yes + sentiment yes,77,0.0617,0.0412,0.0847
+"yes, propositional families",68,0.057,0.0354,0.0824
+"partial/no, propositional families",44,0.0668,0.0334,0.1125
+"partial/no, modulating families",150,0.1188,0.0929,0.1454
+"yes, modulating families",10,0.0875,0.0268,0.1538

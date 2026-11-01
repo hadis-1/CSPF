@@ -1,0 +1,12 @@
+group,pairs,FR,ci_lo,ci_hi
+annotator 1: yes,211,0.0773,0.0622,0.0923
+annotator 1: partial,316,0.091,0.0762,0.1067
+annotator 1: no,6,0.1875,0.0,0.4688
+annotator 2: yes,144,0.0569,0.0422,0.0752
+annotator 2: partial,348,0.0903,0.0769,0.1059
+annotator 2: no,41,0.1601,0.1029,0.2253
+both yes (consensus),126,0.057,0.0417,0.0726
+either yes,229,0.0756,0.0614,0.0905
+both partial,279,0.0878,0.0717,0.1029
+either no,41,0.1601,0.1061,0.2205
+all matched,533,0.0867,0.0756,0.0982

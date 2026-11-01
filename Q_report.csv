@@ -1,0 +1,28 @@
+annotator,check,status,detail
+A,rows,PASS,"278 rows in the sheet, 278 in the key"
+A,blank cells,PASS,"{'meaning': 0, 'sentiment': 0, 'natural': 0}"
+A,invalid values,PASS,{}
+A,"gold rows, meaning",FAIL,3/5 correct
+A,"gold rows, sentiment",PASS,6/6 correct
+A,"gold rows, natural",PASS,6/6 correct
+A,meaning=yes but sentiment!=yes,PASS,0 rows (re-check them)
+A,longest run of the same answer,WARN,"{'meaning': 26, 'sentiment': 82, 'natural': 14}"
+A,share of rows with a comment,WARN,0% (very few comments can mean that rows were not read closely)
+A,sentiment=yes share,PASS,97% (round 1: 87–96%)
+A,meaning=yes share,WARN,75% (round 1: 17–39% over the whole sample)
+A,meaning=partial share,PASS,23% (very high values mean 'partial' is used as a default)
+B,rows,PASS,"278 rows in the sheet, 278 in the key"
+B,blank cells,PASS,"{'meaning': 0, 'sentiment': 0, 'natural': 0}"
+B,invalid values,PASS,{}
+B,"gold rows, meaning",FAIL,3/5 correct
+B,"gold rows, sentiment",PASS,6/6 correct
+B,"gold rows, natural",FAIL,4/6 correct
+B,meaning=yes but sentiment!=yes,PASS,0 rows (re-check them)
+B,longest run of the same answer,WARN,"{'meaning': 39, 'sentiment': 69, 'natural': 14}"
+B,share of rows with a comment,WARN,0% (very few comments can mean that rows were not read closely)
+B,sentiment=yes share,PASS,97% (round 1: 87–96%)
+B,meaning=yes share,WARN,84% (round 1: 17–39% over the whole sample)
+B,meaning=partial share,PASS,14% (very high values mean 'partial' is used as a default)
+A vs B,meaning agreement,PASS,"raw 78%, kappa 0.35 (round 1: 77%, kappa 0.54)"
+A vs B,sentiment agreement,PASS,"raw 99%, kappa 0.73"
+A vs B,natural agreement,PASS,"raw 82%, kappa 0.58"

@@ -1,0 +1,6 @@
+subset,pairs,mean_FR_16_models,ci_lo,ci_hi
+all audited pairs,533,0.0867,0.0764,0.0989
+annotator 1: meaning = yes,211,0.0773,0.0628,0.0933
+annotator 1: not 'no',527,0.0855,0.0745,0.0962
+consensus: both annotators 'yes',126,0.057,0.043,0.0729
+meaning-altering (annotator 1 'no'),6,0.1875,0.0,0.4871

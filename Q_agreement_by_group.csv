@@ -1,0 +1,13 @@
+group,rows,agree
+P01_hedging,24,0.79
+P02_discourse,24,0.83
+P03_negation,24,0.71
+P04_sarcasm,24,0.67
+P05_dilution,24,0.79
+P06_pragmatic,24,0.79
+P07_contrastive,24,0.79
+P08_synonym,24,0.71
+P09_intensity,16,0.81
+P10_syntax,16,1.0
+P11_entity,24,0.83
+P12_register,24,0.67

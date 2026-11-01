@@ -1,0 +1,13 @@
+sample_id,original_review,perturbed_review,content_same_a,strength_same_a,sentiment_a,natural_a,comment_a
+CAL_01,The movie was great.,That movie was great.,yes,yes,yes,yes,-
+CAL_02,The food was awful.,"The food was kind of awful, I guess.",yes,no,yes,yes,-
+CAL_03,I loved the concert last night.,I loved the football game last night.,no,yes,yes,yes,-
+CAL_04,The service was terrible.,The service was awful.,yes,yes,yes,yes,-
+CAL_05,I really hate this phone.,I really don't like this phone.,yes,no,yes,yes,-
+CAL_06,The battery is not terrible.,The battery is terrible.,yes,no,no,yes,-
+CAL_07,The phone is amazing.,The phone is the amazing and of the the.,yes,yes,unclear,no,-
+CAL_08,I'm happy with the delivery.,I'm somewhat happy with the delivery.,yes,no,yes,yes,-
+CAL_09,I love this song!,I hate this song!,no,no,no,yes,same topic but opposite
+CAL_10,"Watching the game tonight, can't wait.","Watching the show tonight, can't wait.",no,yes,yes,yes,-
+CAL_11,"Great service, will come again.","Great servcie, will come again.",yes,yes,yes,borderline,-
+CAL_12,The staff were friendly.,Staff were friendly.,yes,yes,yes,yes,-

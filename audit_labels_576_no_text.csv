@@ -1,0 +1,577 @@
+sample_id,source_dataset,review_idx,perturbation_family,severity,sev,position_strategy,variant_label,meaning_a1,sentiment_a1,natural_a1,meaning_a2,sentiment_a2,natural_a2,a1,a2,meaning_a3_on_disputed,meaning_adjudicated,sem_preservation_score,m1_cosine_sim,nli_bi,y1,y2,yc,phi_pass
+HV_0001,SemEval16,8521,P01_hedging,1,1,sentence-initial,hedge=I'd say,yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8889,0.9736266,1,1,1,1
+HV_0002,SemEval17,3695,P01_hedging,1,1,clause-final,hedge=I think,yes,yes,yes,partial,yes,borderline,yes,partial,partial,partial,1.0,0.9583,0.20833106,1,0,0,1
+HV_0003,SemEval16,216,P01_hedging,1,1,clause-final,hedge=in a way,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.9167,0.85304505,0,0,0,1
+HV_0004,debate08,1526,P01_hedging,1,1,sentence-initial,"hedge=Speaking personally,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8947,0.045319192,1,1,1,1
+HV_0005,SemEval17,5901,P01_hedging,1,1,clause-final,hedge=in a way,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8846,0.77873135,0,0,0,1
+HV_0006,SentiSternth,134,P01_hedging,1,1,sentence-initial,"hedge=In my view,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.8571,0.9914255,1,1,1,1
+HV_0007,SemEval17,3983,P01_hedging,1,1,pre-adjective,hedge=relatively|adj=bad,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.9412,0.41481066,0,0,0,1
+HV_0008,SemEval16,7647,P01_hedging,1,1,clause-final,hedge=more or less,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8929,0.058487337,0,0,0,1
+HV_0009,hcr,766,P01_hedging,1,1,sentence-initial,"hedge=Honestly,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.9412,0.3001223,1,1,1,1
+HV_0010,SemEval16,1893,P01_hedging,1,1,clause-final,hedge=in a way,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8421,0.9512268,0,0,0,1
+HV_0011,SemEval16,10434,P01_hedging,1,1,clause-final,hedge=in a way,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.875,0.08062196,0,0,0,1
+HV_0012,debate08,1513,P01_hedging,1,1,clause-final,hedge=more or less,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,0.7,0.7,0.064605385,0,0,0,0
+HV_0013,SemEval15,196,P01_hedging,1,1,sentence-initial,hedge=I'd say,yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.9,0.96789616,1,1,1,1
+HV_0014,SentiSternth,1061,P01_hedging,1,1,sentence-initial,"hedge=Honestly,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.9412,0.9692685,1,1,1,1
+HV_0015,SemEval16,4409,P01_hedging,1,1,sentence-initial,hedge=I'd say,yes,yes,no,yes,yes,yes,yes,yes,,yes,1.0,0.8571,0.9025255,1,1,1,1
+HV_0016,SemEval16,6775,P01_hedging,1,1,clause-final,hedge=more or less,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8889,0.042116676,0,0,0,1
+HV_0017,Target-dependent,2925,P01_hedging,2,2,clause-final,hedge=I suppose,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8571,0.47682026,0,0,0,1
+HV_0018,hcr,1146,P01_hedging,2,2,sentence-initial,"hedge=Seemingly,",yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.96,0.77801806,1,0,0,1
+HV_0019,SemEval16,3127,P01_hedging,2,2,sentence-initial,"hedge=For what it's worth,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.9167,0.98896515,1,1,1,1
+HV_0020,SemEval17,6010,P01_hedging,2,2,clause-final,hedge=I suppose,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.9286,0.03399679,0,0,0,1
+HV_0021,SemEval18,133,P01_hedging,2,2,clause-final,hedge=within reason,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.92,0.054461766,0,0,0,1
+HV_0022,SemEval17,685,P01_hedging,2,2,pre-adjective,hedge=relatively|adj=great,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.9565,0.091390744,0,0,0,1
+HV_0023,SentiSternth,1351,P01_hedging,2,2,sentence-initial,"hedge=In all fairness,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.8421,0.14448357,1,1,1,1
+HV_0024,SemEval16,3218,P01_hedging,2,2,clause-final,hedge=to varying degrees,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8333,0.002094419,0,0,0,1
+HV_0025,VADER,2727,P01_hedging,2,2,clause-final,hedge=to varying degrees,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,0.7,0.7,0.009055564,0,0,0,0
+HV_0026,SemEval16,2989,P01_hedging,2,2,sentence-initial,hedge=One could say,yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.875,0.8528186,1,0,0,1
+HV_0027,SemEval18,1059,P01_hedging,2,2,sentence-initial,hedge=One could say,yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.8571,0.9452908,1,0,0,1
+HV_0028,archeage,848,P01_hedging,2,2,clause-final,hedge=for the most part,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8,0.0024515057,0,0,0,1
+HV_0029,SentiSternth,1730,P01_hedging,2,2,clause-final,hedge=for the most part,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,0.7,0.7333,0.0100104995,0,0,0,0
+HV_0030,hobbit,111,P01_hedging,2,2,sentence-initial,"hedge=In all fairness,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,0.7,0.7273,0.08307201,1,1,1,0
+HV_0031,Target-dependent,3353,P01_hedging,2,2,clause-final,hedge=I suppose,partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9545,0.42520878,0,0,0,1
+HV_0032,hcr,592,P01_hedging,2,2,clause-final,hedge=I guess,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8571,0.044911724,0,0,0,1
+HV_0033,VADER,2100,P01_hedging,3,3,clause-final,hedge=if that,partial,yes,yes,no,unclear,borderline,partial,no,partial,partial,1.0,0.8333,0.12385505,0,0,0,1
+HV_0034,Target-dependent,1684,P01_hedging,3,3,clause-final,hedge=arguably,partial,yes,yes,partial,yes,no,partial,partial,,partial,1.0,0.9444,0.20606749,0,0,0,1
+HV_0035,SemEval16,7452,P01_hedging,3,3,clause-final,hedge=for what it's worth,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8667,0.2705205,0,0,0,1
+HV_0036,SemEval17,2416,P01_hedging,3,3,clause-final,hedge=if that,partial,yes,yes,no,unclear,borderline,partial,no,partial,partial,1.0,0.9167,0.24491481,0,0,0,1
+HV_0037,narr,213,P01_hedging,3,3,pre-adjective,hedge=by some measures|adj=Good,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.5714,0.4335821,0,0,0,0
+HV_0038,VADER,4059,P01_hedging,3,3,sentence-initial,"hedge=Purportedly,",partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.9333,0.2845459,0,0,0,1
+HV_0039,SemEval16,1051,P01_hedging,3,3,pre-adjective,hedge=ostensibly|adj=Ridiculous,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.9615,0.74289566,0,0,0,1
+HV_0040,Target-dependent,1248,P01_hedging,3,3,sentence-initial,"hedge=In theory,",no,unclear,no,no,unclear,borderline,no,no,,no,0.7,0.7143,0.061696775,0,0,0,0
+HV_0041,Target-dependent,1212,P01_hedging,3,3,clause-final,hedge=arguably,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.9615,0.14663537,0,0,0,1
+HV_0042,Target-dependent,2529,P01_hedging,3,3,clause-final,hedge=for what it's worth,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,0.7,0.6875,0.061180033,0,0,0,0
+HV_0043,VADER,1209,P01_hedging,3,3,clause-final,hedge=one might say,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8333,0.18977995,0,0,0,1
+HV_0044,SentiSternth,1421,P01_hedging,3,3,sentence-initial,"hedge=By most accounts,",yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,0.7,0.75,0.14508526,1,1,1,0
+HV_0045,SemEval17,1614,P01_hedging,3,3,clause-final,hedge=arguably,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.9333,0.019951006,0,0,0,1
+HV_0046,SemEval16,6097,P01_hedging,3,3,sentence-initial,"hedge=By most accounts,",yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,1.0,0.8889,0.020438684,1,1,1,1
+HV_0047,SemEval16,4405,P01_hedging,3,3,sentence-initial,"hedge=Ostensibly,",yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.9565,0.348035,1,0,0,1
+HV_0048,SemEval16,10676,P01_hedging,3,3,clause-final,hedge=arguably,partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.9444,0.043463677,0,0,0,1
+HV_0049,SemEval13,178,P02_discourse,1,1,sentence-initial,"discourse=To be fair,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,0.7,0.7,0.08270776,1,1,1,0
+HV_0050,SemEval18,1680,P02_discourse,1,1,sentence-initial,"discourse=In my experience,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,0.7,0.6667,0.020627143,1,1,1,0
+HV_0051,SemEval16,2654,P02_discourse,1,1,sentence-initial,"discourse=In my experience,",yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.9259,0.15069784,1,1,1,1
+HV_0052,sanders,1059,P02_discourse,1,1,sentence-initial,"discourse=Frankly,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8,0.80496734,1,1,1,1
+HV_0053,STS-gold,1417,P02_discourse,1,1,sentence-initial,"discourse=To be fair,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.8462,0.27153736,1,1,1,1
+HV_0054,SemEval16,3221,P02_discourse,1,1,sentence-initial,"discourse=Frankly,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.96,0.89320445,1,1,1,1
+HV_0055,STS-gold,1192,P02_discourse,1,1,sentence-initial,"discourse=To be transparent,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,0.7,0.75,0.16820805,1,1,1,0
+HV_0056,SemEval18,1765,P02_discourse,1,1,sentence-initial,"discourse=To be transparent,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.85,0.12386003,1,1,1,1
+HV_0057,debate08,1007,P02_discourse,1,1,sentence-initial,"discourse=To be fair,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.8,0.05386463,1,1,1,1
+HV_0058,SentiSternth,994,P02_discourse,1,1,sentence-initial,"discourse=Frankly,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.9231,0.92269146,1,1,1,1
+HV_0059,SentiSternth,1320,P02_discourse,1,1,sentence-initial,"discourse=Honestly,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.96,0.7425806,1,1,1,1
+HV_0060,SemEval18,1067,P02_discourse,1,1,sentence-initial,"discourse=Speaking for myself,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8636,0.17182815,1,1,1,1
+HV_0061,SemEval17,1846,P02_discourse,1,1,sentence-initial,"discourse=To be fair,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.8421,0.023140715,1,1,1,1
+HV_0062,archeage,647,P02_discourse,1,1,sentence-initial,"discourse=Speaking for myself,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8,0.05188093,1,1,1,1
+HV_0063,SemEval17,1845,P02_discourse,1,1,sentence-initial,"discourse=Frankly,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.9,0.93706316,1,1,1,1
+HV_0064,VADER,64,P02_discourse,1,1,sentence-initial,"discourse=Honestly,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.95,0.8463651,1,1,1,1
+HV_0065,SemEval16,7349,P02_discourse,2,2,sentence-initial,"discourse=Surprisingly,",yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.9565,0.48980814,1,0,0,1
+HV_0066,iphone,420,P02_discourse,2,2,sentence-initial,"discourse=Interestingly enough,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.913,0.35228437,1,1,1,1
+HV_0067,archeage,837,P02_discourse,2,2,sentence-initial,"discourse=On reflection,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.9167,0.0963896,1,1,1,1
+HV_0068,SemEval13,2499,P02_discourse,2,2,sentence-initial,"discourse=On reflection,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.9167,0.15070206,1,1,1,1
+HV_0069,SemEval16,2706,P02_discourse,2,2,sentence-initial,"discourse=Interestingly enough,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.92,0.6284608,1,1,1,1
+HV_0070,hobbit,114,P02_discourse,2,2,sentence-initial,"discourse=On reflection,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8947,0.08258971,1,1,1,1
+HV_0071,archeage,407,P02_discourse,2,2,sentence-initial,"discourse=On reflection,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.8462,0.06201963,1,1,1,1
+HV_0072,SemEval17,5771,P02_discourse,2,2,sentence-initial,"discourse=Interestingly enough,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8947,0.516982,1,1,1,1
+HV_0073,sanders,438,P02_discourse,2,2,sentence-initial,"discourse=Surprisingly,",yes,yes,yes,partial,yes,borderline,yes,partial,partial,partial,1.0,0.9583,0.32651258,1,0,0,1
+HV_0074,SemEval17,6298,P02_discourse,2,2,sentence-initial,"discourse=For what it's worth,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8333,0.7701609,1,1,1,1
+HV_0075,SemEval16,7384,P02_discourse,2,2,sentence-initial,"discourse=On reflection,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.95,0.022623286,1,1,1,1
+HV_0076,SemEval13,2589,P02_discourse,2,2,sentence-initial,"discourse=On reflection,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.92,0.49139068,1,1,1,1
+HV_0077,SemEval16,8000,P02_discourse,2,2,sentence-initial,"discourse=On reflection,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.875,0.011517959,1,1,1,1
+HV_0078,SemEval17,6062,P02_discourse,2,2,sentence-initial,"discourse=Interestingly enough,",yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.875,0.23462269,1,1,1,1
+HV_0079,SemEval16,4797,P02_discourse,2,2,sentence-initial,"discourse=Interestingly enough,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.92,0.03237224,1,1,1,1
+HV_0080,person,44,P02_discourse,2,2,sentence-initial,"discourse=All things considered,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.8929,0.8819671,1,1,1,1
+HV_0081,SemEval17,4103,P02_discourse,3,3,sentence-initial,"discourse=Setting aside personal bias,",partial,yes,borderline,yes,yes,yes,partial,yes,partial,partial,1.0,0.8621,0.008307546,0,1,0,1
+HV_0082,SentiSternth,1055,P02_discourse,3,3,sentence-initial,"discourse=Technically speaking,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.92,0.8340057,1,1,1,1
+HV_0083,debate08,281,P02_discourse,3,3,sentence-initial,"discourse=Upon closer inspection,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,0.7,0.75,0.14998984,1,1,1,0
+HV_0084,SemEval16,6127,P02_discourse,3,3,sentence-initial,"discourse=Setting aside personal bias,",yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,0.7,0.7647,0.018979615,1,1,1,0
+HV_0085,Target-dependent,1741,P02_discourse,3,3,sentence-initial,"discourse=Setting aside personal bias,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.8462,0.18364246,1,1,1,1
+HV_0086,SemEval16,11687,P02_discourse,3,3,sentence-initial,"discourse=Upon closer inspection,",yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,1.0,0.8571,0.25728333,1,1,1,1
+HV_0087,hcr,601,P02_discourse,3,3,sentence-initial,"discourse=Upon closer inspection,",yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,1.0,0.8571,0.36031383,1,1,1,1
+HV_0088,SemEval13,101,P02_discourse,3,3,sentence-initial,"discourse=Against all expectations,",partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.85,0.005712709,0,0,0,1
+HV_0089,SemEval16,4998,P02_discourse,3,3,sentence-initial,"discourse=Setting aside personal bias,",yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,1.0,0.8519,0.034967266,1,1,1,1
+HV_0090,Target-dependent,1163,P02_discourse,3,3,sentence-initial,"discourse=Against all expectations,",partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.92,0.008674775,0,0,0,1
+HV_0091,hcr,1357,P02_discourse,3,3,sentence-initial,"discourse=Setting aside personal bias,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,1.0,0.8333,0.049790714,1,1,1,1
+HV_0092,SentiSternth,799,P02_discourse,3,3,sentence-initial,"discourse=Against all expectations,",yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.8,0.0011849189,1,0,0,1
+HV_0093,debate08,13,P02_discourse,3,3,sentence-initial,"discourse=Upon closer inspection,",yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,0.7,0.7273,0.23574235,1,1,1,0
+HV_0094,SemEval16,7168,P02_discourse,3,3,sentence-initial,"discourse=Upon closer inspection,",yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,1.0,0.88,0.058169004,1,1,1,1
+HV_0095,SemEval16,7938,P02_discourse,3,3,sentence-initial,"discourse=Against all expectations,",yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.875,0.0020348942,1,0,0,1
+HV_0096,SemEval17,2113,P02_discourse,3,3,sentence-initial,"discourse=Setting aside personal bias,",yes,yes,borderline,yes,yes,yes,yes,yes,,yes,0.7,0.6,0.0019832277,1,1,1,0
+HV_0097,SemEval17,2908,P03_negation,1,1,adjective-replacement,bad?not good,yes,yes,borderline,partial,yes,yes,yes,partial,yes,yes,1.0,0.8421,0.99336845,1,0,0,1
+HV_0098,VADER,2538,P03_negation,1,1,adjective-replacement,beautiful?not unattractive,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8846,0.71161026,0,0,0,1
+HV_0099,SemEval16,5026,P03_negation,1,1,adjective-replacement,good?not bad,yes,yes,yes,partial,yes,no,yes,partial,partial,partial,1.0,0.875,0.89167887,1,0,0,1
+HV_0100,person,267,P03_negation,1,1,adjective-replacement,good?not bad,yes,yes,yes,partial,yes,yes,yes,partial,partial,partial,1.0,0.8846,0.9882636,1,0,0,1
+HV_0101,SemEval16,8231,P03_negation,1,1,adjective-replacement,great?not poor,yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.8333,0.77618957,1,0,0,1
+HV_0102,hobbit,93,P03_negation,1,1,adjective-replacement,good?not bad,yes,yes,yes,no,unclear,no,yes,no,partial,partial,1.0,0.8636,0.931814,1,0,0,1
+HV_0103,archeage,232,P03_negation,1,1,adjective-replacement,great?not poor,yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.8235,0.019608906,1,0,0,1
+HV_0104,VADER,655,P03_negation,1,1,adjective-replacement,great?not poor,yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,0.7,0.7,0.58888423,1,0,0,0
+HV_0105,SemEval16,10112,P03_negation,1,1,adjective-replacement,terrible?not enjoyable,yes,yes,borderline,partial,yes,no,yes,partial,partial,partial,1.0,0.875,0.9605522,1,0,0,1
+HV_0106,SemEval16,2868,P03_negation,1,1,adjective-replacement,great?not poor,yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.875,0.6325686,1,0,0,1
+HV_0107,SemEval16,4866,P03_negation,1,1,adjective-replacement,good?not bad,yes,yes,yes,partial,yes,no,yes,partial,partial,partial,1.0,0.8333,0.9695346,1,0,0,1
+HV_0108,SemEval18,1100,P03_negation,1,1,adjective-replacement,terrible?not enjoyable,yes,yes,borderline,partial,yes,no,yes,partial,partial,partial,1.0,0.8421,0.9741925,1,0,0,1
+HV_0109,Target-dependent,221,P03_negation,1,1,adjective-replacement,bad?not good,yes,yes,borderline,no,no,borderline,yes,no,no,no,1.0,0.875,0.9834643,1,0,0,1
+HV_0110,hcr,566,P03_negation,1,1,adjective-replacement,excellent?not substandard,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8421,0.8631266,0,0,0,1
+HV_0111,SemEval16,3443,P03_negation,1,1,adjective-replacement,lovely?not off-putting,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8095,0.6773985,0,0,0,1
+HV_0112,hobbit,138,P03_negation,1,1,adjective-replacement,good?not bad,yes,yes,yes,partial,yes,no,yes,partial,partial,partial,0.7,0.7273,0.5131848,1,0,0,0
+HV_0113,SemEval16,6682,P03_negation,2,2,adjective-replacement,good?not terrible,yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.8889,0.93052405,1,0,0,1
+HV_0114,person,80,P03_negation,2,2,adjective-replacement,great?not dreadful,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8333,0.6611244,0,0,0,1
+HV_0115,Target-dependent,859,P03_negation,2,2,adjective-replacement,amazing?not unremarkable,partial,yes,borderline,partial,yes,no,partial,partial,,partial,0.7,0.7692,0.36425036,0,0,0,0
+HV_0116,VADER,1758,P03_negation,2,2,adjective-replacement,amazing?not unremarkable,partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.8667,0.9112857,0,0,0,1
+HV_0117,narr,265,P03_negation,2,2,adjective-replacement,great?not dreadful,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.7273,0.8801918,0,0,0,0
+HV_0118,SemEval16,6082,P03_negation,2,2,adjective-replacement,good?not terrible,yes,yes,borderline,partial,yes,no,yes,partial,partial,partial,1.0,0.85,0.91291976,1,0,0,1
+HV_0119,SentiSternth,2114,P03_negation,2,2,adjective-replacement,bad?not that good,yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.8421,0.6903576,1,0,0,1
+HV_0120,SemEval16,8959,P03_negation,2,2,adjective-replacement,good?not terrible,yes,yes,borderline,partial,yes,no,yes,partial,partial,partial,1.0,0.875,0.9590791,1,0,0,1
+HV_0121,SemEval16,2421,P03_negation,2,2,adjective-replacement,great?not dreadful,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.875,0.94947445,0,0,0,1
+HV_0122,VADER,2524,P03_negation,2,2,adjective-replacement,awesome?not ordinary,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.5714,0.14520563,0,0,0,0
+HV_0123,SemEval16,3437,P03_negation,2,2,adjective-replacement,good?not terrible,yes,yes,borderline,partial,yes,no,yes,partial,partial,partial,1.0,0.8846,0.9539812,1,0,0,1
+HV_0124,archeage,113,P03_negation,2,2,adjective-replacement,poor?far from impressive,yes,yes,borderline,no,unclear,no,yes,no,no,no,0.7,0.6923,0.8742132,1,0,0,0
+HV_0125,SemEval13,3003,P03_negation,2,2,adjective-replacement,good?not terrible,yes,yes,yes,partial,yes,borderline,yes,partial,partial,partial,1.0,0.875,0.9701132,1,0,0,1
+HV_0126,sentiment140,270,P03_negation,2,2,adjective-replacement,amazing?not unremarkable,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.7692,0.88073343,0,0,0,0
+HV_0127,VADER,534,P03_negation,2,2,adjective-replacement,amazing?not unremarkable,partial,yes,borderline,partial,yes,no,partial,partial,,partial,0.7,0.7857,0.12046655,0,0,0,0
+HV_0128,SemEval17,18,P03_negation,2,2,adjective-replacement,excellent?not inferior,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8636,0.7586259,0,0,0,1
+HV_0129,sanders,587,P03_negation,3,3,adjective-replacement,amazing?not beyond question,partial,yes,no,partial,yes,no,partial,partial,,partial,0.7,0.7778,0.07893107,0,0,0,0
+HV_0130,VADER,3083,P03_negation,3,3,adjective-replacement,horrible?not in the least bit redeeming,yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,0.7,0.6316,0.20650962,1,1,1,0
+HV_0131,SemEval16,5531,P03_negation,3,3,adjective-replacement,fantastic?not entirely convincing,partial,yes,borderline,no,no,borderline,partial,no,no,no,1.0,0.8182,0.00050489284,0,0,0,1
+HV_0132,hcr,240,P03_negation,3,3,adjective-replacement,outstanding?not without shortcomings,partial,yes,borderline,no,no,borderline,partial,no,no,no,1.0,0.8333,0.0025642575,0,0,0,1
+HV_0133,SemEval16,3019,P03_negation,3,3,adjective-replacement,brilliant?not above criticism,partial,yes,borderline,no,no,borderline,partial,no,no,no,1.0,0.8667,0.07889231,0,0,0,1
+HV_0134,movie,435,P03_negation,3,3,adjective-replacement,fantastic?not entirely convincing,partial,yes,borderline,partial,unclear,no,partial,partial,,partial,0.7,0.7647,0.11788371,0,0,0,0
+HV_0135,iphone,140,P03_negation,3,3,adjective-replacement,amazing?not beyond question,partial,yes,no,partial,unclear,no,partial,partial,,partial,0.7,0.6364,0.0735499,0,0,0,0
+HV_0136,SemEval16,2946,P03_negation,3,3,adjective-replacement,good?not exactly great,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8182,0.0050534722,0,0,0,1
+HV_0137,hobbit,176,P03_negation,3,3,adjective-replacement,good?not exactly great,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8261,0.0064181755,0,0,0,1
+HV_0138,debate08,51,P03_negation,3,3,adjective-replacement,good?not exactly great,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.6667,0.0009610005,0,0,0,0
+HV_0139,SemEval13,730,P03_negation,3,3,adjective-replacement,great?not quite perfect,partial,yes,borderline,partial,unclear,borderline,partial,partial,,partial,0.7,0.7778,0.0023729196,0,0,0,0
+HV_0140,SemEval13,803,P03_negation,3,3,adjective-replacement,brilliant?not above criticism,partial,yes,borderline,no,no,borderline,partial,no,no,no,1.0,0.8261,0.0025890656,0,0,0,1
+HV_0141,SemEval16,8108,P03_negation,3,3,adjective-replacement,good?not exactly great,partial,yes,borderline,partial,unclear,borderline,partial,partial,,partial,1.0,0.8261,0.0007888473,0,0,0,1
+HV_0142,SemEval16,10929,P03_negation,3,3,adjective-replacement,terrible?not what anyone would call enjoyable,yes,yes,no,partial,yes,borderline,yes,partial,partial,partial,0.7,0.7667,0.98219925,1,0,0,0
+HV_0143,Target-dependent,22,P03_negation,3,3,adjective-replacement,good?not exactly great,partial,yes,borderline,partial,yes,no,partial,partial,,partial,0.7,0.6923,0.00051381666,0,0,0,0
+HV_0144,SemEval13,2300,P03_negation,3,3,adjective-replacement,great?not quite perfect,partial,yes,borderline,partial,unclear,borderline,partial,partial,,partial,1.0,0.8571,0.002767381,0,0,0,1
+HV_0145,SemEval16,11411,P04_sarcasm,1,1,parenthetical,sarcasm=(more or less),partial,unclear,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8571,0.21513715,0,0,0,1
+HV_0146,VADER,2267,P04_sarcasm,1,1,clause-final,"sarcasm=, in a way",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8571,0.35132065,0,0,0,1
+HV_0147,hcr,248,P04_sarcasm,1,1,parenthetical,sarcasm=(more or less),partial,unclear,yes,yes,yes,yes,partial,yes,partial,partial,1.0,0.8846,0.17085466,0,1,0,1
+HV_0148,SemEval16,6383,P04_sarcasm,1,1,clause-final,"sarcasm=, in a way",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.875,0.26543906,0,0,0,1
+HV_0149,SemEval16,3284,P04_sarcasm,1,1,clause-final,"sarcasm=, so they say",partial,yes,yes,partial,yes,no,partial,partial,,partial,1.0,0.9048,0.003976556,0,0,0,1
+HV_0150,SemEval13,3554,P04_sarcasm,1,1,parenthetical,sarcasm=(in theory),partial,unclear,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.875,0.035872966,0,0,0,1
+HV_0151,SemEval13,520,P04_sarcasm,1,1,clause-final,"sarcasm=, I suppose",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.9565,0.08275989,0,0,0,1
+HV_0152,sanders,260,P04_sarcasm,1,1,clause-final,"sarcasm=, so they say",partial,unclear,yes,partial,yes,borderline,partial,partial,,partial,0.7,0.5714,0.21028471,0,0,0,0
+HV_0153,SemEval16,1600,P04_sarcasm,1,1,clause-final,"sarcasm=, I suppose",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8947,0.12188666,0,0,0,1
+HV_0154,SemEval16,1172,P04_sarcasm,1,1,clause-final,"sarcasm=, in a way",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8667,0.19534501,0,0,0,1
+HV_0155,SemEval16,2603,P04_sarcasm,1,1,clause-final,"sarcasm=, more or less",partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.85,0.06911734,0,0,0,1
+HV_0156,SemEval16,6742,P04_sarcasm,1,1,clause-final,"sarcasm=, so they say",partial,yes,borderline,yes,yes,yes,partial,yes,partial,partial,1.0,0.9091,0.0065219263,0,1,0,1
+HV_0157,VADER,3753,P04_sarcasm,1,1,clause-final,"sarcasm=, so they say",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,0.7,0.7273,0.04214692,0,0,0,0
+HV_0158,SentiSternth,1170,P04_sarcasm,1,1,clause-final,"sarcasm=, I suppose",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.875,0.018766183,0,0,0,1
+HV_0159,SemEval17,5291,P04_sarcasm,1,1,clause-final,"sarcasm=, in a way",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8696,0.113563046,0,0,0,1
+HV_0160,Target-dependent,1876,P04_sarcasm,1,1,clause-final,"sarcasm=, so they say",partial,unclear,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8636,0.018049106,0,0,0,1
+HV_0161,SemEval16,2744,P04_sarcasm,2,2,clause-final,"sarcasm=, believe it or not",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8462,0.6430724,0,0,0,1
+HV_0162,SemEval13,4095,P04_sarcasm,2,2,clause-final,"sarcasm=, believe it or not",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,0.7,0.6923,0.41058552,0,0,0,0
+HV_0163,VADER,4183,P04_sarcasm,2,2,clause-final,"sarcasm=, apparently",partial,unclear,yes,partial,unclear,borderline,partial,partial,,partial,1.0,0.9,0.053754017,0,0,0,1
+HV_0164,SemEval17,162,P04_sarcasm,2,2,clause-final,"sarcasm=, or so it would seem",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,0.7,0.6154,0.027731923,0,0,0,0
+HV_0165,SemEval16,9994,P04_sarcasm,2,2,clause-final,"sarcasm=, go figure",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8947,0.07602389,0,0,0,1
+HV_0166,SemEval18,1271,P04_sarcasm,2,2,parenthetical,sarcasm=(or so it seemed),partial,unclear,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8182,0.07362642,0,0,0,1
+HV_0167,SemEval17,500,P04_sarcasm,2,2,clause-final,"sarcasm=, go figure",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8824,0.15058549,0,0,0,1
+HV_0168,SemEval17,2944,P04_sarcasm,2,2,clause-final,"sarcasm=, believe it or not",partial,unclear,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8261,0.255452,0,0,0,1
+HV_0169,STS-gold,368,P04_sarcasm,2,2,parenthetical,sarcasm=(go figure),partial,unclear,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.931,0.12991002,0,0,0,1
+HV_0170,SemEval16,7874,P04_sarcasm,2,2,clause-final,"sarcasm=, apparently",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.96,0.15961301,0,0,0,1
+HV_0171,SemEval16,1778,P04_sarcasm,2,2,clause-final,"sarcasm=, go figure",partial,yes,yes,yes,yes,yes,partial,yes,partial,partial,1.0,0.8889,0.06497308,0,1,0,1
+HV_0172,SemEval17,4884,P04_sarcasm,2,2,clause-final,"sarcasm=, believe it or not",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8095,0.5517782,0,0,0,1
+HV_0173,SemEval17,5265,P04_sarcasm,2,2,clause-final,"sarcasm=, believe it or not",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8333,0.1252318,0,0,0,1
+HV_0174,SemEval13,2983,P04_sarcasm,2,2,clause-final,"sarcasm=, believe it or not",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8261,0.25466168,0,0,0,1
+HV_0175,SentiSternth,1366,P04_sarcasm,2,2,parenthetical,sarcasm=(apparently),partial,unclear,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8571,0.049408954,0,0,0,1
+HV_0176,SemEval17,1684,P04_sarcasm,2,2,clause-final,"sarcasm=, believe it or not",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8,0.37330738,0,0,0,1
+HV_0177,SemEval16,2400,P04_sarcasm,3,3,clause-final,"sarcasm=, what a surprise",partial,unclear,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.9286,0.031217009,0,0,0,1
+HV_0178,debate08,1774,P04_sarcasm,3,3,clause-final,"sarcasm=, what a surprise",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.9355,0.025093459,0,0,0,1
+HV_0179,VADER,1364,P04_sarcasm,3,3,clause-final,"sarcasm=, who would have thought",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8,0.01072016,0,0,0,1
+HV_0180,SemEval16,10568,P04_sarcasm,3,3,clause-final,"sarcasm=, I'm shocked",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.96,0.1310435,0,0,0,1
+HV_0181,SemEval17,5105,P04_sarcasm,3,3,clause-final,"sarcasm=, truly groundbreaking",partial,yes,borderline,partial,unclear,borderline,partial,partial,,partial,1.0,0.9259,0.0021432901,0,0,0,1
+HV_0182,SemEval16,1660,P04_sarcasm,3,3,clause-final,"sarcasm=, what a surprise",yes,yes,yes,partial,unclear,borderline,yes,partial,partial,partial,1.0,0.913,0.011801275,1,0,0,1
+HV_0183,SemEval18,1537,P04_sarcasm,3,3,clause-final,"sarcasm=, what a surprise",partial,yes,yes,partial,unclear,borderline,partial,partial,,partial,1.0,0.8696,0.012022377,0,0,0,1
+HV_0184,SentiSternth,404,P04_sarcasm,3,3,clause-final,"sarcasm=, who would have thought",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8333,0.005154965,0,0,0,1
+HV_0185,STS-gold,486,P04_sarcasm,3,3,clause-final,"sarcasm=, what a surprise",partial,yes,yes,partial,unclear,borderline,partial,partial,,partial,1.0,0.875,0.0047689877,0,0,0,1
+HV_0186,SemEval16,9996,P04_sarcasm,3,3,clause-final,"sarcasm=, who would have thought",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8333,0.0034395342,0,0,0,1
+HV_0187,narr,536,P04_sarcasm,3,3,clause-final,"sarcasm=, I'm shocked",partial,unclear,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8571,0.0038776218,0,0,0,1
+HV_0188,SemEval13,4125,P04_sarcasm,3,3,clause-final,"sarcasm=, what a surprise",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8333,0.018552775,0,0,0,1
+HV_0189,debate08,1197,P04_sarcasm,3,3,clause-final,"sarcasm=, what a surprise",partial,yes,yes,partial,unclear,borderline,partial,partial,,partial,1.0,0.9286,0.007815393,0,0,0,1
+HV_0190,SemEval17,1863,P04_sarcasm,3,3,clause-final,"sarcasm=, truly groundbreaking",partial,unclear,yes,partial,unclear,borderline,partial,partial,,partial,1.0,0.913,0.0058367453,0,0,0,1
+HV_0191,narr,125,P04_sarcasm,3,3,clause-final,"sarcasm=, who would have thought",partial,yes,yes,partial,yes,borderline,partial,partial,,partial,0.7,0.6,0.011522989,0,0,0,0
+HV_0192,SemEval16,5907,P04_sarcasm,3,3,clause-final,"sarcasm=, I'm shocked",partial,unclear,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8846,0.0038496123,0,0,0,1
+HV_0193,SemEval17,4216,P05_dilution,1,1,adverb-weakening,clause-end 'reasonably',yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.9583,0.010513226,1,0,0,1
+HV_0194,SemEval18,62,P05_dilution,1,1,adverb-weakening,clause-end 'reasonably',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9231,0.06284386,0,0,0,1
+HV_0195,SemEval16,1332,P05_dilution,1,1,adverb-weakening,clause-end 'rather',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9444,0.11702257,0,0,0,1
+HV_0196,SemEval18,719,P05_dilution,1,1,adverb-weakening,clause-end 'pretty',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9474,0.005640358,0,0,0,1
+HV_0197,SemEval18,1727,P05_dilution,1,1,adverb-weakening,clause-end 'quite',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9231,0.090251215,0,0,0,1
+HV_0198,Target-dependent,3374,P05_dilution,1,1,adverb-weakening,clause-end 'quite',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9524,0.49545038,0,0,0,1
+HV_0199,SemEval16,2450,P05_dilution,1,1,adverb-weakening,clause-end 'rather',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9412,0.06496403,0,0,0,1
+HV_0200,SemEval13,3401,P05_dilution,1,1,adverb-weakening,clause-end 'reasonably',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9524,0.008387909,0,0,0,1
+HV_0201,SemEval16,1292,P05_dilution,1,1,adverb-weakening,clause-end 'rather',partial,yes,borderline,yes,yes,borderline,partial,yes,partial,partial,1.0,0.9565,0.079754286,0,1,0,1
+HV_0202,hcr,462,P05_dilution,1,1,adverb-weakening,clause-end 'quite',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9545,0.03990451,0,0,0,1
+HV_0203,SemEval13,3511,P05_dilution,1,1,adverb-weakening,clause-end 'rather',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9444,0.027350033,0,0,0,1
+HV_0204,hcr,425,P05_dilution,1,1,adverb-weakening,clause-end 'quite',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9,0.34107953,0,0,0,1
+HV_0205,STS-gold,1733,P05_dilution,1,1,adverb-weakening,clause-end 'fairly',partial,yes,borderline,yes,yes,borderline,partial,yes,partial,partial,1.0,0.875,0.007021327,0,1,0,1
+HV_0206,SemEval18,565,P05_dilution,1,1,adverb-weakening,clause-end 'fairly',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9565,0.013445214,0,0,0,1
+HV_0207,SemEval16,6692,P05_dilution,1,1,adverb-weakening,clause-end 'rather',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9375,0.24987605,0,0,0,1
+HV_0208,SemEval16,1669,P05_dilution,1,1,adverb-weakening,clause-end 'reasonably',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.95,0.021108037,0,0,0,1
+HV_0209,SemEval17,2892,P05_dilution,2,2,adverb-weakening,clause-end 'slightly',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9565,0.0014768894,0,0,0,1
+HV_0210,VADER,1362,P05_dilution,2,2,adverb-weakening,clause-end 'a bit',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.8333,0.027853064,0,0,0,1
+HV_0211,SemEval13,1209,P05_dilution,2,2,adverb-weakening,clause-end 'mildly',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9583,0.0057564103,0,0,0,1
+HV_0212,hcr,497,P05_dilution,2,2,adverb-weakening,clause-end 'slightly',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9231,0.0019142226,0,0,0,1
+HV_0213,archeage,1055,P05_dilution,2,2,adverb-weakening,clause-end 'moderately',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9545,0.014409539,0,0,0,1
+HV_0214,SemEval16,10365,P05_dilution,2,2,adverb-weakening,clause-end 'somewhat',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.9583,0.041295294,0,0,0,1
+HV_0215,debate08,1624,P05_dilution,2,2,adverb-weakening,clause-end 'moderately',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9,0.0019517506,0,0,0,1
+HV_0216,debate08,1334,P05_dilution,2,2,adverb-weakening,clause-end 'moderately',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.95,0.011044231,0,0,0,1
+HV_0217,debate08,1875,P05_dilution,2,2,adverb-weakening,clause-end 'a bit',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.9167,0.011277786,0,0,0,1
+HV_0218,SemEval18,844,P05_dilution,2,2,adverb-weakening,clause-end 'slightly',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9375,0.002520741,0,0,0,1
+HV_0219,SentiSternth,727,P05_dilution,2,2,adverb-weakening,clause-end 'a bit',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.913,0.013121807,0,0,0,1
+HV_0220,sanders,966,P05_dilution,2,2,adverb-weakening,clause-end 'mildly',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9444,0.01262905,0,0,0,1
+HV_0221,SemEval16,3162,P05_dilution,2,2,adverb-weakening,clause-end 'slightly',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9615,0.004360061,0,0,0,1
+HV_0222,SemEval18,644,P05_dilution,2,2,adverb-weakening,clause-end 'mildly',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.9444,0.004932661,0,0,0,1
+HV_0223,debate08,1784,P05_dilution,2,2,adverb-weakening,clause-end 'somewhat',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.9615,0.017421933,0,0,0,1
+HV_0224,STS-gold,1240,P05_dilution,2,2,adverb-weakening,prepend 'somewhat' before 'great',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.9583,0.04491349,0,0,0,1
+HV_0225,SemEval17,4858,P05_dilution,3,3,adverb-weakening,clause-end 'barely',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9524,0.00654381,0,0,0,1
+HV_0226,VADER,1118,P05_dilution,3,3,adverb-weakening,clause-end 'just barely',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.8947,0.0019650478,0,0,0,1
+HV_0227,debate08,281,P05_dilution,3,3,adverb-weakening,clause-end 'barely',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9,0.004648193,0,0,0,1
+HV_0228,VADER,2755,P05_dilution,3,3,adverb-weakening,clause-end 'only marginally',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.8824,0.0046207486,0,0,0,1
+HV_0229,SemEval17,884,P05_dilution,3,3,adverb-weakening,clause-end 'hardly',partial,yes,borderline,partial,unclear,no,partial,partial,,partial,1.0,0.9412,0.03770723,0,0,0,1
+HV_0230,SemEval16,11685,P05_dilution,3,3,adverb-weakening,clause-end 'at best slightly',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.8846,0.0044441917,0,0,0,1
+HV_0231,hcr,601,P05_dilution,3,3,adverb-weakening,clause-end 'only marginally',partial,yes,borderline,partial,unclear,no,partial,partial,,partial,1.0,0.9,0.0016892654,0,0,0,1
+HV_0232,SemEval13,100,P05_dilution,3,3,adverb-weakening,clause-end 'only marginally',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.913,0.008345326,0,0,0,1
+HV_0233,SemEval17,506,P05_dilution,3,3,adverb-weakening,prepend 'barely' before 'ridiculous',partial,yes,no,no,yes,no,partial,no,partial,partial,1.0,0.9615,0.0358468,0,0,0,1
+HV_0234,ntua,101,P05_dilution,3,3,adverb-weakening,clause-end 'hardly',partial,yes,borderline,partial,unclear,no,partial,partial,,partial,1.0,0.9545,0.015446593,0,0,0,1
+HV_0235,SemEval16,3752,P05_dilution,3,3,adverb-weakening,clause-end 'hardly',partial,yes,borderline,partial,unclear,borderline,partial,partial,,partial,1.0,0.9474,0.27032772,0,0,0,1
+HV_0236,SemEval17,2084,P05_dilution,3,3,adverb-weakening,prepend 'only marginally' before 'GREAT',partial,yes,no,partial,yes,borderline,partial,partial,,partial,1.0,0.92,0.0039673517,0,0,0,1
+HV_0237,SemEval17,4089,P05_dilution,3,3,adverb-weakening,clause-end 'hardly',partial,yes,borderline,partial,unclear,no,partial,partial,,partial,1.0,0.9412,0.063497424,0,0,0,1
+HV_0238,SemEval17,5816,P05_dilution,3,3,adverb-weakening,clause-end 'barely',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9,0.0032805467,0,0,0,1
+HV_0239,SemEval16,11874,P05_dilution,3,3,adverb-weakening,clause-end 'barely',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9615,0.007760633,0,0,0,1
+HV_0240,archeage,1533,P05_dilution,3,3,adverb-weakening,clause-end 'barely',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9375,0.00441487,0,0,0,1
+HV_0241,SemEval16,629,P06_pragmatic,1,1,phrase-replacement,'it was great'?'it was fine',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9167,0.7615004,0,0,0,1
+HV_0242,STS-gold,936,P06_pragmatic,1,1,phrase-replacement,'i hated it'?'i disliked it',yes,yes,yes,partial,yes,yes,yes,partial,partial,partial,1.0,0.913,0.9909779,1,0,0,1
+HV_0243,VADER,3626,P06_pragmatic,1,1,phrase-replacement,'it was bad'?'it was below average',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.8333,0.37050223,0,0,0,1
+HV_0244,movie,140,P06_pragmatic,1,1,phrase-replacement,'it was good'?'it was acceptable',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.92,0.99499536,0,0,0,1
+HV_0245,hobbit,356,P06_pragmatic,1,1,phrase-replacement,'it was good'?'it was acceptable',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.8571,0.959681,0,0,0,1
+HV_0246,hobbit,143,P06_pragmatic,1,1,phrase-replacement,'it was good'?'it was acceptable',partial,yes,yes,partial,yes,yes,partial,partial,,partial,0.7,0.6,0.53177285,0,0,0,0
+HV_0247,hobbit,286,P06_pragmatic,1,1,phrase-replacement,'it was good'?'it was acceptable',partial,yes,yes,partial,yes,yes,partial,partial,,partial,0.7,0.7778,0.38597235,0,0,0,0
+HV_0248,Target-dependent,1884,P06_pragmatic,1,1,phrase-replacement,'i love it'?'i like it',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9375,0.99346703,0,0,0,1
+HV_0249,STS-gold,1787,P06_pragmatic,1,1,phrase-replacement,'avoid'?'not recommended',no,yes,no,no,unclear,no,no,no,,no,1.0,0.8421,0.7857229,0,0,0,1
+HV_0250,SentiSternth,1245,P06_pragmatic,1,1,phrase-replacement,'i love it'?'i like it',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9,0.95129025,0,0,0,1
+HV_0251,SemEval16,8810,P06_pragmatic,1,1,phrase-replacement,'it was amazing'?'it was quite good',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.8846,0.9581548,0,0,0,1
+HV_0252,narr,662,P06_pragmatic,1,1,phrase-replacement,'it is amazing'?'it is quite good',partial,yes,yes,partial,yes,borderline,partial,partial,,partial,0.7,0.7,0.45365635,0,0,0,0
+HV_0253,Target-dependent,1317,P06_pragmatic,1,1,phrase-replacement,'i love it'?'i like it',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9048,0.9920197,0,0,0,1
+HV_0254,hobbit,155,P06_pragmatic,1,1,phrase-replacement,'it was good'?'it was acceptable',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.931,0.3271342,0,0,0,1
+HV_0255,SemEval17,6080,P06_pragmatic,1,1,phrase-replacement,'avoid'?'not recommended',no,yes,no,no,unclear,no,no,no,,no,1.0,0.92,0.96589726,0,0,0,1
+HV_0256,VADER,2710,P06_pragmatic,1,1,phrase-replacement,'i loved it'?'i liked it',partial,yes,yes,partial,yes,yes,partial,partial,,partial,0.7,0.75,0.8906908,0,0,0,0
+HV_0257,narr,662,P06_pragmatic,2,2,phrase-replacement,'it is amazing'?'it performs well',partial,yes,borderline,no,yes,no,partial,no,partial,partial,0.7,0.6,0.41611025,0,0,0,0
+HV_0258,Target-dependent,1290,P06_pragmatic,2,2,phrase-replacement,'i love it'?'i appreciate it',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.8824,0.44254413,0,0,0,1
+HV_0259,hobbit,39,P06_pragmatic,2,2,phrase-replacement,'it was bad'?'it had serious issues',no,no,no,no,no,no,no,no,,no,0.7,0.2857,0.054390598,0,0,0,0
+HV_0260,SemEval16,2395,P06_pragmatic,2,2,phrase-replacement,'i loved it'?'i appreciated it',partial,yes,yes,yes,yes,yes,partial,yes,partial,partial,1.0,0.8571,0.991606,0,1,0,1
+HV_0261,SemEval17,2673,P06_pragmatic,2,2,phrase-replacement,'i love it'?'i appreciate it',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9,0.73191434,0,0,0,1
+HV_0262,Target-dependent,700,P06_pragmatic,2,2,phrase-replacement,'it was amazing'?'it performed well',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8,0.47085643,0,0,0,1
+HV_0263,SemEval16,222,P06_pragmatic,2,2,phrase-replacement,'it was great'?'it did what it promised',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.7619,0.008213112,0,0,0,0
+HV_0264,hobbit,480,P06_pragmatic,2,2,phrase-replacement,'it was bad'?'it had serious issues',no,no,no,no,no,no,no,no,,no,0.7,0.5455,0.004734868,0,0,0,0
+HV_0265,debate08,191,P06_pragmatic,2,2,phrase-replacement,'i love it'?'i appreciate it',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.8182,0.8850563,0,0,0,1
+HV_0266,hcr,207,P06_pragmatic,2,2,phrase-replacement,'it is great'?'it does what it promises',partial,yes,no,no,unclear,no,partial,no,no,no,1.0,0.8261,0.25451383,0,0,0,1
+HV_0267,SemEval18,901,P06_pragmatic,2,2,phrase-replacement,'i love it'?'i appreciate it',partial,yes,yes,partial,yes,yes,partial,partial,,partial,0.7,0.7143,0.96034724,0,0,0,0
+HV_0268,SemEval17,2372,P06_pragmatic,2,2,phrase-replacement,'it works'?'it functions adequately',partial,yes,borderline,partial,yes,yes,partial,partial,,partial,1.0,0.8929,0.9843014,0,0,0,1
+HV_0269,SemEval16,6685,P06_pragmatic,2,2,phrase-replacement,'i love it'?'i appreciate it',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.913,0.7903382,0,0,0,1
+HV_0270,SentiSternth,90,P06_pragmatic,2,2,phrase-replacement,'i loved it'?'i appreciated it',partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.8571,0.95615274,0,0,0,1
+HV_0271,Target-dependent,1868,P06_pragmatic,2,2,phrase-replacement,'it was amazing'?'it performed well',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.7895,0.33760965,0,0,0,0
+HV_0272,SemEval16,8810,P06_pragmatic,2,2,phrase-replacement,'it was amazing'?'it performed well',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8462,0.96844774,0,0,0,1
+HV_0273,iphone,34,P06_pragmatic,3,3,phrase-replacement,'i love it'?'i can work with it',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.7895,0.026289487,0,0,0,0
+HV_0274,hobbit,201,P06_pragmatic,3,3,phrase-replacement,'it was good'?'it was tolerable',partial,yes,yes,partial,unclear,yes,partial,partial,,partial,0.7,0.75,0.2494953,0,0,0,0
+HV_0275,hobbit,361,P06_pragmatic,3,3,phrase-replacement,'it was good'?'it was tolerable',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.9545,0.062857896,0,0,0,1
+HV_0276,SentiSternth,1245,P06_pragmatic,3,3,phrase-replacement,'i love it'?'i can work with it',partial,yes,borderline,partial,unclear,borderline,partial,partial,,partial,1.0,0.8182,0.030671248,0,0,0,1
+HV_0277,archeage,417,P06_pragmatic,3,3,phrase-replacement,'i love it'?'i can work with it',partial,yes,borderline,partial,unclear,borderline,partial,partial,,partial,0.7,0.7778,0.035552252,0,0,0,0
+HV_0278,SemEval16,7391,P06_pragmatic,3,3,phrase-replacement,'i love it'?'i can work with it',partial,yes,borderline,partial,unclear,borderline,partial,partial,,partial,1.0,0.8966,0.029074084,0,0,0,1
+HV_0279,narr,662,P06_pragmatic,3,3,phrase-replacement,'it is amazing'?'it is not without merit',partial,yes,yes,partial,yes,borderline,partial,partial,,partial,0.7,0.6364,0.16362977,0,0,0,0
+HV_0280,SentiSternth,818,P06_pragmatic,3,3,phrase-replacement,'it was good'?'it was tolerable',partial,yes,borderline,partial,yes,yes,partial,partial,,partial,1.0,0.9048,0.85533226,0,0,0,1
+HV_0281,hobbit,23,P06_pragmatic,3,3,phrase-replacement,'it is great'?'it is serviceable',partial,yes,borderline,partial,yes,yes,partial,partial,,partial,1.0,0.8889,0.07441169,0,0,0,1
+HV_0282,movie,357,P06_pragmatic,3,3,phrase-replacement,'it was good'?'it was tolerable',partial,yes,yes,partial,unclear,yes,partial,partial,,partial,0.7,0.75,0.08240216,0,0,0,0
+HV_0283,SemEval16,2026,P06_pragmatic,3,3,phrase-replacement,'i love it'?'i can work with it',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8519,0.14881924,0,0,0,1
+HV_0284,VADER,2050,P06_pragmatic,3,3,phrase-replacement,'i love it'?'i can work with it',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.6923,0.045457277,0,0,0,0
+HV_0285,SemEval16,629,P06_pragmatic,3,3,phrase-replacement,'it was great'?'it was serviceable',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9167,0.19928412,0,0,0,1
+HV_0286,Target-dependent,1290,P06_pragmatic,3,3,phrase-replacement,'i love it'?'i can work with it',partial,yes,borderline,partial,unclear,borderline,partial,partial,,partial,0.7,0.7895,0.047818888,0,0,0,0
+HV_0287,SemEval16,6125,P06_pragmatic,3,3,phrase-replacement,'i love it'?'i can work with it',partial,yes,borderline,partial,unclear,borderline,partial,partial,,partial,1.0,0.8929,0.04731633,0,0,0,1
+HV_0288,SemEval16,8810,P06_pragmatic,3,3,phrase-replacement,'it was amazing'?'it was not without merit',partial,yes,borderline,partial,unclear,borderline,partial,partial,,partial,1.0,0.8519,0.09586708,0,0,0,1
+HV_0289,SemEval18,1271,P07_contrastive,1,1,adjective-replacement,terrible?not amazing,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.85,0.9725558,0,0,0,1
+HV_0290,VADER,2777,P07_contrastive,1,1,adjective-replacement,superb?not lacking,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8846,0.9780774,0,0,0,1
+HV_0291,SemEval16,7179,P07_contrastive,1,1,adjective-replacement,impressive?not unremarkable,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8889,0.9866818,0,0,0,1
+HV_0292,SemEval17,712,P07_contrastive,1,1,adjective-replacement,superb?not lacking,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.6667,0.5576803,0,0,0,0
+HV_0293,Target-dependent,2593,P07_contrastive,1,1,adjective-replacement,awful?not pleasant,partial,yes,borderline,partial,yes,yes,partial,partial,,partial,1.0,0.8947,0.9806035,0,0,0,1
+HV_0294,sanders,791,P07_contrastive,1,1,adjective-replacement,terrible?not amazing,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8421,0.4889146,0,0,0,1
+HV_0295,SemEval18,1763,P07_contrastive,1,1,adjective-replacement,dreadful?not enjoyable,partial,yes,borderline,partial,yes,yes,partial,partial,,partial,0.7,0.5,0.46615154,0,0,0,0
+HV_0296,VADER,4029,P07_contrastive,1,1,adjective-replacement,terrible?not amazing,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8696,0.00825432,0,0,0,1
+HV_0297,sanders,578,P07_contrastive,1,1,adjective-replacement,impressive?not unremarkable,partial,yes,borderline,partial,yes,no,partial,partial,,partial,0.7,0.7857,0.7842357,0,0,0,0
+HV_0298,SemEval13,3321,P07_contrastive,1,1,adjective-replacement,atrocious?not commendable,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8846,0.8934646,0,0,0,1
+HV_0299,SemEval16,4298,P07_contrastive,1,1,adjective-replacement,impressive?not unremarkable,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.88,0.8341261,0,0,0,1
+HV_0300,SemEval16,11828,P07_contrastive,1,1,adjective-replacement,terrible?not amazing,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8696,0.9854945,0,0,0,1
+HV_0301,SemEval16,1175,P07_contrastive,1,1,adjective-replacement,terrible?not amazing,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8966,0.9189168,0,0,0,1
+HV_0302,VADER,1966,P07_contrastive,1,1,adjective-replacement,superb?not lacking,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.75,0.91306436,0,0,0,0
+HV_0303,VADER,3196,P07_contrastive,1,1,adjective-replacement,terrible?not amazing,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.9,0.32108608,0,0,0,1
+HV_0304,sanders,968,P07_contrastive,1,1,adjective-replacement,terrible?not amazing,partial,yes,borderline,partial,yes,yes,partial,partial,,partial,1.0,0.8889,0.99204856,0,0,0,1
+HV_0305,SemEval18,1100,P07_contrastive,2,2,adjective-replacement,terrible?not exactly brilliant,partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.8,0.9663191,0,0,0,1
+HV_0306,STS-gold,310,P07_contrastive,2,2,adjective-replacement,great?not quite poor,partial,yes,borderline,partial,unclear,no,partial,partial,,partial,0.7,0.7333,0.07884986,0,0,0,0
+HV_0307,debate08,505,P07_contrastive,2,2,adjective-replacement,good?not exactly bad,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.9231,0.74880534,0,0,0,1
+HV_0308,iphone,165,P07_contrastive,2,2,adjective-replacement,good?not exactly bad,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.7143,0.93098843,0,0,0,0
+HV_0309,SemEval16,6604,P07_contrastive,2,2,adjective-replacement,great?not quite poor,partial,yes,no,no,unclear,no,partial,no,no,no,0.7,0.7895,0.024703851,0,0,0,0
+HV_0310,SemEval17,2429,P07_contrastive,2,2,adjective-replacement,great?not quite poor,partial,yes,borderline,partial,unclear,no,partial,partial,,partial,1.0,0.8,0.013112378,0,0,0,1
+HV_0311,SemEval13,2326,P07_contrastive,2,2,adjective-replacement,great?not quite poor,partial,yes,no,no,unclear,no,partial,no,no,no,1.0,0.8235,0.042686924,0,0,0,1
+HV_0312,SemEval13,2026,P07_contrastive,2,2,adjective-replacement,good?not exactly bad,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.7647,0.5338362,0,0,0,0
+HV_0313,VADER,2030,P07_contrastive,2,2,adjective-replacement,good?not exactly bad,partial,yes,borderline,partial,yes,no,partial,partial,,partial,0.7,0.7778,0.72069925,0,0,0,0
+HV_0314,sanders,156,P07_contrastive,2,2,adjective-replacement,good?not exactly bad,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.84,0.944872,0,0,0,1
+HV_0315,SemEval16,4335,P07_contrastive,2,2,adjective-replacement,good?not exactly bad,partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.8333,0.44692895,0,0,0,1
+HV_0316,SemEval16,4576,P07_contrastive,2,2,adjective-replacement,great?not quite poor,partial,yes,borderline,partial,unclear,no,partial,partial,,partial,1.0,0.84,0.23992877,0,0,0,1
+HV_0317,SemEval18,1763,P07_contrastive,2,2,adjective-replacement,dreadful?not at all satisfying,partial,yes,borderline,partial,yes,yes,partial,partial,,partial,0.7,0.375,0.5406438,0,0,0,0
+HV_0318,debate08,671,P07_contrastive,2,2,adjective-replacement,good?not exactly bad,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.6364,0.4750522,0,0,0,0
+HV_0319,SemEval17,6181,P07_contrastive,2,2,adjective-replacement,bad?not particularly impressive,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8846,0.20049207,0,0,0,1
+HV_0320,SemEval13,1322,P07_contrastive,2,2,adjective-replacement,great?not quite poor,partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.8571,0.70085925,0,0,0,1
+HV_0321,SemEval13,862,P07_contrastive,3,3,adjective-replacement,good?not the worst,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.9062,0.16551138,0,0,0,1
+HV_0322,debate08,755,P07_contrastive,3,3,adjective-replacement,great?not altogether awful,partial,yes,no,partial,unclear,no,partial,partial,,partial,0.7,0.5,0.13470241,0,0,0,0
+HV_0323,sanders,598,P07_contrastive,3,3,adjective-replacement,amazing?not completely devoid of merit,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.7778,0.3663376,0,0,0,0
+HV_0324,SemEval16,3532,P07_contrastive,3,3,adjective-replacement,good?not the worst,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8889,0.9633062,0,0,0,1
+HV_0325,SemEval16,9329,P07_contrastive,3,3,adjective-replacement,bad?not by any measure successful,partial,yes,no,partial,yes,no,partial,partial,,partial,0.7,0.7931,0.7819473,0,0,0,0
+HV_0326,SemEval13,1016,P07_contrastive,3,3,adjective-replacement,good?not the worst,partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.8696,0.9320691,0,0,0,1
+HV_0327,Target-dependent,1187,P07_contrastive,3,3,adjective-replacement,amazing?not completely devoid of merit,partial,yes,borderline,partial,yes,no,partial,partial,,partial,0.7,0.6667,0.54943395,0,0,0,0
+HV_0328,movie,384,P07_contrastive,3,3,adjective-replacement,amazing?not completely devoid of merit,partial,yes,borderline,partial,unclear,borderline,partial,partial,,partial,1.0,0.8,0.05747363,0,0,0,1
+HV_0329,VADER,948,P07_contrastive,3,3,adjective-replacement,good?not the worst,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8,0.9307179,0,0,0,1
+HV_0330,narr,215,P07_contrastive,3,3,adjective-replacement,good?not the worst,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.4286,0.5465852,0,0,0,0
+HV_0331,SemEval13,3043,P07_contrastive,3,3,adjective-replacement,good?not the worst,partial,yes,no,partial,yes,borderline,partial,partial,,partial,1.0,0.9,0.83699816,0,0,0,1
+HV_0332,SemEval17,128,P07_contrastive,3,3,adjective-replacement,great?not altogether awful,partial,yes,borderline,partial,yes,no,partial,partial,,partial,0.7,0.7778,0.11848577,0,0,0,0
+HV_0333,hobbit,326,P07_contrastive,3,3,adjective-replacement,good?not the worst,no,unclear,no,no,unclear,no,no,no,,no,1.0,0.8696,0.100260474,0,0,0,1
+HV_0334,SemEval13,3003,P07_contrastive,3,3,adjective-replacement,good?not the worst,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.875,0.7265886,0,0,0,1
+HV_0335,SemEval16,9291,P07_contrastive,3,3,adjective-replacement,terrible?not what anyone would call good,partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.6842,0.972455,0,0,0,0
+HV_0336,SemEval16,6352,P07_contrastive,3,3,adjective-replacement,good?not the worst,partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.8621,0.83830523,0,0,0,1
+HV_0337,Target-dependent,502,P08_synonym,1,1,adjective-replacement,'awesome'?'incredible',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.875,0.9944766,1,1,1,1
+HV_0338,debate08,771,P08_synonym,1,1,adjective-replacement,'amazing'?'wonderful',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8462,0.8463817,1,1,1,1
+HV_0339,SemEval17,362,P08_synonym,1,1,adjective-replacement,'bad'?'poor',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8889,0.99520975,1,1,1,1
+HV_0340,Target-dependent,258,P08_synonym,1,1,adjective-replacement,'bad'?'poor',yes,yes,yes,no,no,borderline,yes,no,no,no,1.0,0.9,0.9480123,1,0,0,1
+HV_0341,hcr,633,P08_synonym,1,1,adjective-replacement,'good'?'solid',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.9167,0.9849679,1,1,1,1
+HV_0342,SemEval16,1719,P08_synonym,1,1,adjective-replacement,'awesome'?'incredible',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.9091,0.9383928,1,1,1,1
+HV_0343,SemEval17,1709,P08_synonym,1,1,adjective-replacement,'good'?'solid',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8947,0.8150697,1,1,1,1
+HV_0344,hobbit,464,P08_synonym,1,1,adjective-replacement,'bad'?'poor',yes,yes,yes,no,unclear,no,yes,no,no,no,0.7,0.7143,0.9164696,1,0,0,0
+HV_0345,SemEval17,4928,P08_synonym,1,1,adjective-replacement,'bad'?'poor',yes,yes,yes,partial,yes,borderline,yes,partial,no,partial,1.0,0.913,0.6033233,1,0,0,1
+HV_0346,Target-dependent,1545,P08_synonym,1,1,adjective-replacement,'awesome'?'incredible',yes,yes,yes,yes,yes,yes,yes,yes,,yes,0.7,0.7778,0.985761,1,1,1,0
+HV_0347,SemEval17,2350,P08_synonym,1,1,adjective-replacement,'great'?'excellent',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8667,0.9908031,1,1,1,1
+HV_0348,debate08,334,P08_synonym,1,1,adjective-replacement,'good'?'solid',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.9167,0.89588267,1,1,1,1
+HV_0349,hcr,323,P08_synonym,1,1,adjective-replacement,'good'?'solid',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.9091,0.9372565,1,1,1,1
+HV_0350,SemEval16,5029,P08_synonym,1,1,adjective-replacement,'great'?'excellent',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.92,0.9965869,1,1,1,1
+HV_0351,STS-gold,678,P08_synonym,1,1,adjective-replacement,'beautiful'?'gorgeous',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8462,0.99558455,1,1,1,1
+HV_0352,SemEval16,6635,P08_synonym,1,1,adjective-replacement,'amazing'?'wonderful',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.9091,0.9924115,1,1,1,1
+HV_0353,SemEval13,1976,P08_synonym,2,2,adjective-replacement,'good'?'commendable',partial,yes,borderline,yes,yes,borderline,partial,yes,partial,partial,1.0,0.8667,0.9827057,0,1,0,1
+HV_0354,SemEval16,3240,P08_synonym,2,2,adjective-replacement,'good'?'commendable',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8667,0.9761401,1,1,1,1
+HV_0355,VADER,795,P08_synonym,2,2,adjective-replacement,'great'?'splendid',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8889,0.9904066,1,1,1,1
+HV_0356,VADER,1790,P08_synonym,2,2,adjective-replacement,'good'?'commendable',partial,yes,borderline,yes,yes,borderline,partial,yes,partial,partial,1.0,0.875,0.1485001,0,1,0,1
+HV_0357,SemEval18,941,P08_synonym,2,2,adjective-replacement,'good'?'commendable',partial,yes,borderline,yes,yes,borderline,partial,yes,partial,partial,1.0,0.8667,0.77879846,0,1,0,1
+HV_0358,Target-dependent,1875,P08_synonym,2,2,adjective-replacement,'good'?'commendable',partial,yes,borderline,yes,yes,borderline,partial,yes,yes,yes,1.0,0.913,0.9704324,0,1,0,1
+HV_0359,Target-dependent,1652,P08_synonym,2,2,adjective-replacement,'awesome'?'stupendous',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8571,0.9915354,1,1,1,1
+HV_0360,movie,57,P08_synonym,2,2,adjective-replacement,'good'?'commendable',partial,yes,borderline,yes,yes,borderline,partial,yes,partial,partial,1.0,0.8947,0.18656713,0,1,0,1
+HV_0361,Target-dependent,3036,P08_synonym,2,2,adjective-replacement,'bad'?'substandard',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.9,0.95510554,1,1,1,1
+HV_0362,VADER,2538,P08_synonym,2,2,adjective-replacement,'beautiful'?'breathtaking',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.92,0.4404357,1,1,1,1
+HV_0363,VADER,2911,P08_synonym,2,2,adjective-replacement,'good'?'commendable',partial,yes,borderline,yes,yes,borderline,partial,yes,yes,yes,1.0,0.875,0.982668,0,1,0,1
+HV_0364,SemEval16,2617,P08_synonym,2,2,adjective-replacement,'great'?'splendid',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.9,0.98247427,1,1,1,1
+HV_0365,sanders,749,P08_synonym,2,2,adjective-replacement,'bad'?'substandard',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8667,0.9066464,1,1,1,1
+HV_0366,hobbit,239,P08_synonym,2,2,adjective-replacement,'good'?'commendable',partial,yes,borderline,yes,yes,borderline,partial,yes,yes,yes,1.0,0.8333,0.9763168,0,1,0,1
+HV_0367,SemEval16,2935,P08_synonym,2,2,adjective-replacement,'fantastic'?'phenomenal',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.9167,0.9890698,1,1,1,1
+HV_0368,SemEval17,31,P08_synonym,2,2,adjective-replacement,'good'?'commendable',partial,yes,borderline,yes,yes,borderline,partial,yes,yes,yes,1.0,0.875,0.9634752,0,1,0,1
+HV_0369,SemEval13,1976,P08_synonym,3,3,adjective-replacement,'good'?'satisfactory',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8667,0.98691237,0,0,0,1
+HV_0370,SemEval16,3240,P08_synonym,3,3,adjective-replacement,'good'?'satisfactory',partial,yes,yes,yes,yes,yes,partial,yes,yes,yes,1.0,0.8667,0.9913987,0,1,0,1
+HV_0371,VADER,795,P08_synonym,3,3,adjective-replacement,'great'?'top-notch',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8421,0.995159,1,1,1,1
+HV_0372,VADER,1790,P08_synonym,3,3,adjective-replacement,'good'?'satisfactory',partial,yes,borderline,yes,yes,borderline,partial,yes,partial,partial,1.0,0.875,0.96482784,0,1,0,1
+HV_0373,SemEval18,941,P08_synonym,3,3,adjective-replacement,'good'?'satisfactory',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8667,0.41284737,0,0,0,1
+HV_0374,Target-dependent,1875,P08_synonym,3,3,adjective-replacement,'good'?'satisfactory',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.913,0.9703358,0,0,0,1
+HV_0375,Target-dependent,1652,P08_synonym,3,3,adjective-replacement,'awesome'?'jaw-dropping',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.8,0.9839624,1,1,1,1
+HV_0376,movie,57,P08_synonym,3,3,adjective-replacement,'good'?'satisfactory',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8947,0.92542845,0,0,0,1
+HV_0377,Target-dependent,3036,P08_synonym,3,3,adjective-replacement,'bad'?'deplorable',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.9,0.96110666,1,1,1,1
+HV_0378,VADER,2538,P08_synonym,3,3,adjective-replacement,'beautiful'?'resplendent',yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,1.0,0.92,0.93868476,1,1,1,1
+HV_0379,VADER,2911,P08_synonym,3,3,adjective-replacement,'good'?'satisfactory',partial,yes,borderline,partial,yes,yes,partial,partial,,partial,1.0,0.875,0.9905912,0,0,0,1
+HV_0380,SemEval16,2617,P08_synonym,3,3,adjective-replacement,'great'?'top-notch',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8571,0.98786956,1,1,1,1
+HV_0381,sanders,749,P08_synonym,3,3,adjective-replacement,'bad'?'deplorable',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8667,0.91071326,1,1,1,1
+HV_0382,hobbit,239,P08_synonym,3,3,adjective-replacement,'good'?'satisfactory',partial,yes,borderline,partial,yes,yes,partial,partial,,partial,1.0,0.8333,0.98831403,0,0,0,1
+HV_0383,SemEval16,2935,P08_synonym,3,3,adjective-replacement,'fantastic'?'extraordinary',yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,1.0,0.9167,0.89453876,1,1,1,1
+HV_0384,SemEval17,31,P08_synonym,3,3,adjective-replacement,'good'?'satisfactory',partial,yes,borderline,partial,yes,yes,partial,partial,,partial,1.0,0.875,0.9878703,0,0,0,1
+HV_0385,SemEval17,1715,P09_intensity,2,2,intensifier-removal,removed='SO',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9583,0.6966249,0,0,0,1
+HV_0386,hobbit,222,P09_intensity,2,2,intensifier-removal,removed='so',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9091,0.98820984,0,0,0,1
+HV_0387,SemEval18,1138,P09_intensity,2,2,intensifier-removal,removed='so',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9524,0.98260695,0,0,0,1
+HV_0388,movie,28,P09_intensity,2,2,intensifier-removal,removed='very',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9286,0.99153495,0,0,0,1
+HV_0389,sentiment140,37,P09_intensity,2,2,intensifier-removal,removed='so',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,1.0,0.99291706,0,0,0,1
+HV_0390,SemEval16,2341,P09_intensity,2,2,intensifier-removal,removed='so',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.95,0.8739394,0,0,0,1
+HV_0391,SemEval16,12130,P09_intensity,2,2,intensifier-removal,removed='very',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9643,0.65083975,0,0,0,1
+HV_0392,SemEval17,868,P09_intensity,2,2,intensifier-removal,removed='remarkably',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9474,0.037323426,0,0,0,1
+HV_0393,SemEval13,1524,P09_intensity,2,2,intensifier-removal,removed='so',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.9524,0.98349285,0,0,0,1
+HV_0394,SemEval16,2335,P09_intensity,2,2,intensifier-removal,removed='so',partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.9167,0.98052245,0,0,0,1
+HV_0395,SemEval16,2175,P09_intensity,2,2,intensifier-removal,removed='very',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.96,0.98707867,0,0,0,1
+HV_0396,SemEval16,5622,P09_intensity,2,2,intensifier-removal,removed='so',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.9545,0.9831661,0,0,0,1
+HV_0397,movie,18,P09_intensity,2,2,intensifier-removal,removed='very',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.963,0.9737457,0,0,0,1
+HV_0398,SemEval16,5279,P09_intensity,2,2,intensifier-removal,removed='so',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9444,0.72948694,0,0,0,1
+HV_0399,hobbit,175,P09_intensity,2,2,intensifier-removal,removed='so',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.875,0.9526551,0,0,0,1
+HV_0400,sanders,597,P09_intensity,2,2,intensifier-removal,removed='Very',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9333,0.9780582,0,0,0,1
+HV_0401,STS-gold,824,P09_intensity,2,2,intensifier-removal,removed='very',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9524,0.9543046,0,0,0,1
+HV_0402,VADER,290,P09_intensity,2,2,intensifier-removal,removed='so',partial,yes,yes,partial,yes,borderline,partial,partial,,partial,1.0,0.95,0.9217263,0,0,0,1
+HV_0403,SentiSternth,1499,P09_intensity,2,2,intensifier-removal,removed='very',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9583,0.9644947,0,0,0,1
+HV_0404,Target-dependent,1881,P09_intensity,2,2,intensifier-removal,removed='so',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.8571,0.9564459,0,0,0,1
+HV_0405,SentiSternth,1210,P09_intensity,2,2,intensifier-removal,removed='so',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9524,0.77158904,0,0,0,1
+HV_0406,Target-dependent,2977,P09_intensity,2,2,intensifier-removal,removed='so',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9,0.9523383,0,0,0,1
+HV_0407,hobbit,308,P09_intensity,2,2,intensifier-removal,removed='very',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9231,0.9923018,0,0,0,1
+HV_0408,Target-dependent,1747,P09_intensity,2,2,intensifier-removal,removed='so',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9444,0.9674895,0,0,0,1
+HV_0409,narr,821,P09_intensity,3,3,intensifier-removal,removed='utterly',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9,0.28425592,0,0,0,1
+HV_0410,VADER,1635,P09_intensity,3,3,intensifier-removal,removed='extremely',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.8333,0.012242683,0,0,0,1
+HV_0411,VADER,3033,P09_intensity,3,3,intensifier-removal,removed='absolutely',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.8333,0.9200426,0,0,0,1
+HV_0412,narr,451,P09_intensity,3,3,intensifier-removal,removed='totally',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9545,0.8438616,0,0,0,1
+HV_0413,hcr,419,P09_intensity,3,3,intensifier-removal,removed='incredibly',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.95,0.21245357,0,0,0,1
+HV_0414,person,340,P09_intensity,3,3,intensifier-removal,removed='totally',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9615,0.5989211,0,0,0,1
+HV_0415,SemEval15,79,P09_intensity,3,3,intensifier-removal,removed='extremely',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9333,0.05064331,0,0,0,1
+HV_0416,SemEval16,4048,P09_intensity,3,3,intensifier-removal,removed='Absolutely',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.96,0.9319491,0,0,0,1
+HV_0417,SemEval16,121,P09_intensity,3,3,intensifier-removal,removed='Incredibly',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9545,0.103166826,0,0,0,1
+HV_0418,SemEval15,25,P09_intensity,3,3,intensifier-removal,removed='absolutely',partial,unclear,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9,0.92670697,0,0,0,1
+HV_0419,SemEval15,168,P09_intensity,3,3,intensifier-removal,removed='absolutely',partial,unclear,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9333,0.96686393,0,0,0,1
+HV_0420,VADER,3141,P09_intensity,3,3,intensifier-removal,removed='absolutely',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.8333,0.9682748,0,0,0,1
+HV_0421,archeage,120,P09_intensity,3,3,intensifier-removal,removed='incredibly',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9474,0.6404535,0,0,0,1
+HV_0422,SemEval18,1301,P09_intensity,3,3,intensifier-removal,removed='profoundly',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.95,0.7406054,0,0,0,1
+HV_0423,SemEval17,2753,P09_intensity,3,3,intensifier-removal,removed='utterly',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9286,0.26367283,0,0,0,1
+HV_0424,SemEval16,5800,P09_intensity,3,3,intensifier-removal,removed='Absolutely',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9167,0.97384065,0,0,0,1
+HV_0425,sanders,1174,P09_intensity,3,3,intensifier-removal,removed='utterly',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9474,0.3000616,0,0,0,1
+HV_0426,SemEval16,8047,P09_intensity,3,3,intensifier-removal,removed='totally',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9474,0.3809184,0,0,0,1
+HV_0427,SemEval16,998,P09_intensity,3,3,intensifier-removal,removed='absolutely',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9444,0.6695607,0,0,0,1
+HV_0428,SemEval16,8446,P09_intensity,3,3,intensifier-removal,removed='absolutely',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9286,0.92704254,0,0,0,1
+HV_0429,VADER,3997,P09_intensity,3,3,intensifier-removal,removed='absolutely',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.8333,0.9481505,0,0,0,1
+HV_0430,VADER,3113,P09_intensity,3,3,intensifier-removal,removed='absolutely',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.8333,0.93731695,0,0,0,1
+HV_0431,SemEval13,1052,P09_intensity,3,3,intensifier-removal,removed='Absolutely',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.9545,0.8564278,0,0,0,1
+HV_0432,VADER,3744,P09_intensity,3,3,intensifier-removal,removed='absolutely',partial,yes,yes,partial,yes,yes,partial,partial,,partial,1.0,0.8333,0.9059418,0,0,0,1
+HV_0433,SemEval16,4722,P10_syntax,1,1,active-to-passive,'I loved'?'It was lovable',yes,yes,borderline,no,unclear,no,yes,no,partial,partial,1.0,0.8,0.95643735,1,0,0,1
+HV_0434,Target-dependent,738,P10_syntax,1,1,active-to-passive,'I liked'?'It was likable',yes,yes,borderline,no,unclear,no,yes,no,partial,partial,0.7,0.7368,0.97011817,1,0,0,0
+HV_0435,SemEval17,157,P10_syntax,1,1,active-to-passive,'I liked'?'It was likable',yes,yes,borderline,no,unclear,no,yes,no,partial,partial,0.7,0.75,0.9853516,1,0,0,0
+HV_0436,VADER,494,P10_syntax,1,1,active-to-passive,'I liked'?'It was likable',yes,yes,borderline,no,unclear,no,yes,no,partial,partial,0.7,0.6875,0.98570305,1,0,0,0
+HV_0437,SemEval17,2419,P10_syntax,1,1,active-to-passive,'I liked'?'It was likable',yes,yes,borderline,no,unclear,no,yes,no,partial,partial,1.0,0.8,0.9827323,1,0,0,1
+HV_0438,VADER,2558,P10_syntax,1,1,active-to-passive,'I loved'?'It was lovable',yes,yes,borderline,no,unclear,no,yes,no,partial,partial,0.7,0.7143,0.922153,1,0,0,0
+HV_0439,SemEval13,2027,P10_syntax,1,1,active-to-passive,'I liked'?'It was likable',yes,yes,borderline,no,unclear,no,yes,no,partial,partial,1.0,0.8077,0.98214483,1,0,0,1
+HV_0440,SemEval13,2428,P10_syntax,1,1,active-to-passive,'I loved'?'It was lovable',yes,yes,borderline,no,unclear,no,yes,no,partial,partial,1.0,0.8636,0.9566401,1,0,0,1
+HV_0441,SemEval13,2210,P10_syntax,1,1,active-to-passive,'I liked'?'It was likable',yes,yes,borderline,partial,unclear,no,yes,partial,partial,partial,0.7,0.7826,0.9789534,1,0,0,0
+HV_0442,SemEval13,786,P10_syntax,1,1,active-to-passive,'I liked'?'It was likable',yes,yes,borderline,no,unclear,no,yes,no,partial,partial,1.0,0.8261,0.9792733,1,0,0,1
+HV_0443,SemEval17,677,P10_syntax,1,1,active-to-passive,'I liked'?'It was likable',yes,yes,borderline,no,unclear,no,yes,no,partial,partial,0.7,0.75,0.9856887,1,0,0,0
+HV_0444,SemEval17,2394,P10_syntax,1,1,active-to-passive,'I liked'?'It was likable',yes,yes,borderline,no,unclear,no,yes,no,partial,partial,0.7,0.7619,0.98083824,1,0,0,0
+HV_0445,SemEval16,9701,P10_syntax,1,1,active-to-passive,'I loved'?'It was lovable',yes,yes,borderline,no,unclear,no,yes,no,partial,partial,0.7,0.7778,0.9864239,1,0,0,0
+HV_0446,SemEval16,9390,P10_syntax,1,1,active-to-passive,'I hated'?'It was detestable',yes,yes,borderline,partial,yes,no,yes,partial,partial,partial,1.0,0.8333,0.96630627,1,0,0,1
+HV_0447,VADER,2792,P10_syntax,1,1,active-to-passive,'I loved'?'It was lovable',yes,yes,borderline,no,unclear,no,yes,no,partial,partial,0.7,0.7647,0.98605925,1,0,0,0
+HV_0448,SemEval16,1642,P10_syntax,1,1,active-to-passive,'I liked'?'It was likable',yes,yes,borderline,no,unclear,no,yes,no,partial,partial,1.0,0.8077,0.97406816,1,0,0,1
+HV_0449,VADER,653,P10_syntax,1,1,active-to-passive,'I enjoyed'?'It was enjoyable',yes,yes,borderline,partial,yes,no,yes,partial,partial,partial,1.0,0.84,0.9625264,1,0,0,1
+HV_0450,SemEval16,11715,P10_syntax,1,1,active-to-passive,'I loved'?'It was lovable',partial,yes,no,no,unclear,no,partial,no,no,no,1.0,0.88,0.9730824,0,0,0,1
+HV_0451,SemEval16,5330,P10_syntax,2,2,active-to-passive,'I recommend'?'It is recommended',yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,1.0,0.8462,0.9800363,1,1,1,1
+HV_0452,VADER,3072,P10_syntax,2,2,active-to-passive,'I thought it was'?'It was considered',yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.8571,0.98096955,1,0,0,1
+HV_0453,STS-gold,1506,P10_syntax,2,2,active-to-passive,'I was disappointed'?'Disappointment was the outcome',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,0.7,0.7895,0.98357195,0,0,0,0
+HV_0454,movie,502,P10_syntax,2,2,active-to-passive,'I thought it was'?'It was considered',yes,yes,borderline,partial,yes,yes,yes,partial,partial,partial,1.0,0.8571,0.9519027,1,0,0,1
+HV_0455,SemEval18,1428,P10_syntax,2,2,active-to-passive,'I thought it was'?'It was considered',yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.8636,0.9764617,1,0,0,1
+HV_0456,SemEval16,6888,P10_syntax,2,2,active-to-passive,'I thought it was'?'It was considered',yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.92,0.99526215,1,0,0,1
+HV_0457,Target-dependent,1932,P10_syntax,2,2,active-to-passive,'I believe it is'?'It is believed to be',yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.84,0.9716888,1,0,0,1
+HV_0458,SemEval13,1128,P10_syntax,2,2,active-to-passive,'I thought it was'?'It was considered',yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.8947,0.99390405,1,0,0,1
+HV_0459,movie,209,P10_syntax,2,2,active-to-passive,'I recommend'?'It is recommended',yes,yes,borderline,yes,yes,no,yes,yes,,yes,0.7,0.7143,0.9736823,1,1,1,0
+HV_0460,SemEval16,2327,P10_syntax,2,2,active-to-passive,'I recommend'?'It is recommended',yes,yes,no,yes,yes,no,yes,yes,,yes,0.7,0.7368,0.92304724,1,1,1,0
+HV_0461,SemEval13,1131,P10_syntax,2,2,active-to-passive,'I thought it was'?'It was considered',yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.8889,0.94372797,1,0,0,1
+HV_0462,Target-dependent,1016,P10_syntax,2,2,active-to-passive,'I recommend'?'It is recommended',yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,0.7,0.7727,0.9865578,1,1,1,0
+HV_0463,VADER,1797,P10_syntax,2,2,active-to-passive,'I recommend'?'It is recommended',yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,0.7,0.7619,0.9878115,1,1,1,0
+HV_0464,SemEval13,2748,P10_syntax,2,2,active-to-passive,'I recommend'?'It is recommended',yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,0.7,0.7826,0.9831861,1,1,1,0
+HV_0465,SemEval16,1122,P10_syntax,2,2,active-to-passive,'I thought it was'?'It was considered',yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.85,0.99434054,1,0,0,1
+HV_0466,hobbit,440,P10_syntax,2,2,active-to-passive,'I was disappointed'?'Disappointment was the outcome',yes,yes,borderline,partial,yes,no,yes,partial,yes,yes,1.0,0.8519,0.979425,1,0,0,1
+HV_0467,debate08,1018,P10_syntax,2,2,active-to-passive,'I thought it was'?'It was considered',yes,yes,borderline,partial,yes,borderline,yes,partial,partial,partial,1.0,0.8125,0.9749917,1,0,0,1
+HV_0468,narr,545,P10_syntax,3,3,active-to-passive,'It made me'?'A sense of',partial,yes,no,partial,yes,no,partial,partial,,partial,0.7,0.7222,0.9833213,0,0,0,0
+HV_0469,movie,469,P10_syntax,3,3,active-to-passive,'This movie is'?'The movie proves to be',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,0.7,0.6842,0.95914155,1,1,1,0
+HV_0470,SemEval13,3532,P10_syntax,3,3,active-to-passive,'I rate'?'A rating of',yes,yes,no,partial,unclear,no,yes,partial,no,partial,1.0,0.8333,0.99109757,1,0,0,1
+HV_0471,movie,150,P10_syntax,3,3,active-to-passive,'It made me'?'A sense of',partial,yes,no,partial,yes,no,partial,partial,,partial,0.7,0.7692,0.9418166,0,0,0,0
+HV_0472,Target-dependent,2155,P10_syntax,3,3,active-to-passive,'It made me'?'A sense of',partial,yes,no,partial,yes,no,partial,partial,,partial,1.0,0.8889,0.8073987,0,0,0,1
+HV_0473,SemEval16,8820,P10_syntax,3,3,active-to-passive,'It made me'?'A sense of',partial,yes,no,partial,yes,no,partial,partial,,partial,0.7,0.7778,0.98916477,0,0,0,0
+HV_0474,SemEval16,8049,P10_syntax,3,3,active-to-passive,'It made me'?'A sense of',partial,yes,no,partial,yes,no,partial,partial,,partial,0.7,0.7931,0.9616283,0,0,0,0
+HV_0475,sanders,282,P10_syntax,3,3,active-to-passive,'I was bored'?'Boredom was induced',partial,yes,no,partial,yes,no,partial,partial,,partial,1.0,0.8846,0.9316054,0,0,0,1
+HV_0476,SentiSternth,1373,P10_syntax,3,3,active-to-passive,'This movie is'?'The movie proves to be',yes,yes,no,yes,yes,no,yes,yes,,yes,0.7,0.7273,0.87026304,1,1,1,0
+HV_0477,hobbit,450,P10_syntax,3,3,active-to-passive,'It made me'?'A sense of',partial,yes,no,partial,yes,no,partial,partial,,partial,1.0,0.8333,0.92391604,0,0,0,1
+HV_0478,movie,479,P10_syntax,3,3,active-to-passive,'This movie is'?'The movie proves to be',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.8333,0.98919404,1,1,1,1
+HV_0479,SemEval17,852,P10_syntax,3,3,active-to-passive,'It made me'?'A sense of',partial,yes,no,partial,yes,no,partial,partial,,partial,0.7,0.6471,0.94290066,0,0,0,0
+HV_0480,hobbit,402,P10_syntax,3,3,active-to-passive,'It made me'?'A sense of',partial,yes,no,partial,yes,no,partial,partial,,partial,0.7,0.76,0.98593104,0,0,0,0
+HV_0481,SemEval13,859,P11_entity,1,1,noun-slot-swap,'song'?'track',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.9167,0.98650914,1,1,1,1
+HV_0482,person,173,P11_entity,1,1,noun-slot-swap,'performance'?'rendition.',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.9167,0.9920631,1,1,1,1
+HV_0483,movie,196,P11_entity,1,1,noun-slot-swap,'film'?'movie',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8571,0.9873218,1,1,1,1
+HV_0484,sanders,886,P11_entity,1,1,noun-slot-swap,'phone'?'handset.',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.92,0.98679,1,1,1,1
+HV_0485,hobbit,401,P11_entity,1,1,noun-slot-swap,'movie'?'picture',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,0.7,0.7778,0.91991484,1,1,1,0
+HV_0486,VADER,3128,P11_entity,1,1,noun-slot-swap,'show'?'series',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.9048,0.9765927,1,1,1,1
+HV_0487,hobbit,142,P11_entity,1,1,noun-slot-swap,'film'?'movie',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8824,0.9944496,1,1,1,1
+HV_0488,VADER,3571,P11_entity,1,1,noun-slot-swap,'phone'?'handset',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.9091,0.9768391,1,1,1,1
+HV_0489,archeage,1221,P11_entity,1,1,noun-slot-swap,'game'?'release;',yes,yes,yes,yes,yes,yes,yes,yes,,yes,0.7,0.7778,0.04066344,1,1,1,0
+HV_0490,SemEval16,11363,P11_entity,1,1,noun-slot-swap,'phone'?'handset',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.9048,0.9836766,1,1,1,1
+HV_0491,hobbit,402,P11_entity,1,1,noun-slot-swap,'movie'?'picture',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.913,0.9888587,1,1,1,1
+HV_0492,Target-dependent,1274,P11_entity,1,1,noun-slot-swap,'song'?'piece',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8947,0.35159418,1,1,1,1
+HV_0493,SemEval16,8714,P11_entity,1,1,noun-slot-swap,'game'?'title',partial,yes,no,no,yes,no,partial,no,no,no,1.0,0.913,0.7108616,0,0,0,1
+HV_0494,person,68,P11_entity,1,1,noun-slot-swap,'show'?'series!',partial,yes,borderline,yes,yes,borderline,partial,yes,yes,yes,1.0,0.9,0.9562639,0,1,0,1
+HV_0495,VADER,563,P11_entity,1,1,noun-slot-swap,'phone'?'device!',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,0.7,0.7778,0.096938424,1,1,1,0
+HV_0496,SemEval16,3224,P11_entity,1,1,noun-slot-swap,'movie'?'film',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.875,0.99395186,1,1,1,1
+HV_0497,hobbit,376,P11_entity,2,2,noun-slot-swap,'movie'?'feature',partial,yes,no,yes,yes,no,partial,yes,partial,partial,1.0,0.8667,0.641263,0,1,0,1
+HV_0498,Target-dependent,522,P11_entity,2,2,noun-slot-swap,'show'?'production',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.8889,0.9831079,1,1,1,1
+HV_0499,SemEval16,7015,P11_entity,2,2,noun-slot-swap,'series'?'production',partial,yes,borderline,partial,yes,no,partial,partial,,partial,1.0,0.9259,0.9356228,0,0,0,1
+HV_0500,Target-dependent,896,P11_entity,2,2,noun-slot-swap,'film'?'production',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.8571,0.9755433,1,1,1,1
+HV_0501,SemEval16,5201,P11_entity,2,2,noun-slot-swap,'game'?'experience',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.9167,0.88459015,0,0,0,1
+HV_0502,SemEval16,1429,P11_entity,2,2,noun-slot-swap,'song'?'composition',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.8889,0.9921051,1,1,1,1
+HV_0503,SemEval16,3953,P11_entity,2,2,noun-slot-swap,'author'?'creator',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8947,0.9709835,1,1,1,1
+HV_0504,hobbit,261,P11_entity,2,2,noun-slot-swap,'movie'?'feature',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,0.7,0.75,0.9659799,1,1,1,0
+HV_0505,SemEval16,2816,P11_entity,2,2,noun-slot-swap,'show'?'presentation',partial,yes,borderline,yes,yes,borderline,partial,yes,yes,yes,1.0,0.8462,0.9908757,0,1,0,1
+HV_0506,sanders,894,P11_entity,2,2,noun-slot-swap,'phone'?'unit?',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.913,0.9453252,1,1,1,1
+HV_0507,movie,239,P11_entity,2,2,noun-slot-swap,'actor'?'player',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.92,0.025977705,0,0,0,1
+HV_0508,person,265,P11_entity,2,2,noun-slot-swap,'actor'?'Player!',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.9,0.0021407513,0,0,0,1
+HV_0509,SemEval16,8222,P11_entity,2,2,noun-slot-swap,'performance'?'delivery.',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.8889,0.82005,1,1,1,1
+HV_0510,Target-dependent,258,P11_entity,2,2,noun-slot-swap,'song'?'composition',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.9,0.454807,1,1,1,1
+HV_0511,SemEval16,2495,P11_entity,2,2,noun-slot-swap,'song'?'number',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.8571,0.9656789,1,1,1,1
+HV_0512,SemEval16,11248,P11_entity,2,2,noun-slot-swap,'movie'?'feature',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.92,0.9903771,1,1,1,1
+HV_0513,hobbit,376,P11_entity,3,3,noun-slot-swap,'movie'?'motion picture',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.8125,0.9949673,1,1,1,1
+HV_0514,SentiSternth,2048,P11_entity,3,3,noun-slot-swap,'service'?'service offering',partial,yes,no,partial,yes,no,partial,partial,,partial,1.0,0.9474,0.24079533,0,0,0,1
+HV_0515,SemEval16,7006,P11_entity,3,3,noun-slot-swap,'author'?'Literary author',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.9524,0.17961016,1,1,1,1
+HV_0516,Target-dependent,887,P11_entity,3,3,noun-slot-swap,'song'?'recorded work',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.8421,0.04436682,1,1,1,1
+HV_0517,SemEval16,5199,P11_entity,3,3,noun-slot-swap,'show'?'television series',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8889,0.9160063,0,0,0,1
+HV_0518,SemEval16,1428,P11_entity,3,3,noun-slot-swap,'film'?'cinematic work',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.875,0.8884658,1,1,1,1
+HV_0519,SemEval16,3952,P11_entity,3,3,noun-slot-swap,'movie'?'cinematic work',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.8846,0.98394656,1,1,1,1
+HV_0520,hobbit,257,P11_entity,3,3,noun-slot-swap,'movie'?'cinematic work',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,0.7,0.6667,0.9894546,1,1,1,0
+HV_0521,SemEval16,2815,P11_entity,3,3,noun-slot-swap,'game'?'interactive work',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8696,0.41357628,0,0,0,1
+HV_0522,Target-dependent,1562,P11_entity,3,3,noun-slot-swap,'song'?'musical piece',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.88,0.95539784,1,1,1,1
+HV_0523,movie,239,P11_entity,3,3,noun-slot-swap,'actor'?'cast member',partial,yes,borderline,partial,yes,borderline,partial,partial,,partial,1.0,0.8846,0.95294696,0,0,0,1
+HV_0524,person,265,P11_entity,3,3,noun-slot-swap,'actor'?'Screen performer!',partial,yes,borderline,yes,yes,borderline,partial,yes,yes,yes,1.0,0.8571,0.41515186,0,1,0,1
+HV_0525,SemEval16,8241,P11_entity,3,3,noun-slot-swap,'phone'?'mobile device',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.8571,0.93602854,1,1,1,1
+HV_0526,Target-dependent,247,P11_entity,3,3,noun-slot-swap,'movie'?'motion picture',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8966,0.99324775,1,1,1,1
+HV_0527,SemEval16,2492,P11_entity,3,3,noun-slot-swap,'game'?'software title.',partial,yes,borderline,no,yes,no,partial,no,no,no,1.0,0.8696,0.04043092,0,0,0,1
+HV_0528,SemEval16,11249,P11_entity,3,3,noun-slot-swap,'hotel'?'hospitality venue',yes,yes,yes,yes,yes,borderline,yes,yes,,yes,1.0,0.8846,0.9706518,1,1,1,1
+HV_0529,hobbit,148,P12_register,1,1,phrase-replacement,'pretty good'?'decent',yes,yes,yes,partial,yes,yes,yes,partial,partial,partial,0.7,0.7,0.99592113,1,0,0,0
+HV_0530,SemEval13,1957,P12_register,1,1,phrase-replacement,'not bad'?'acceptable',yes,yes,yes,partial,yes,yes,yes,partial,yes,yes,1.0,0.8636,0.9736042,1,0,0,1
+HV_0531,STS-gold,1524,P12_register,1,1,phrase-replacement,'not great'?'somewhat lacking',partial,yes,borderline,partial,yes,yes,partial,partial,,partial,1.0,0.8095,0.72426057,0,0,0,1
+HV_0532,hobbit,443,P12_register,1,1,phrase-replacement,'not bad'?'acceptable',yes,no,borderline,yes,yes,yes,yes,yes,,yes,0.7,0.7692,0.9854556,1,1,1,0
+HV_0533,VADER,920,P12_register,1,1,phrase-replacement,'pretty good'?'decent',yes,yes,yes,partial,yes,yes,yes,partial,partial,partial,1.0,0.8571,0.99022454,1,0,0,1
+HV_0534,VADER,3391,P12_register,1,1,phrase-replacement,'pretty bad'?'somewhat poor',yes,yes,borderline,partial,yes,yes,yes,partial,yes,yes,1.0,0.8462,0.3254839,1,0,0,1
+HV_0535,SemEval16,5613,P12_register,1,1,phrase-replacement,'pretty good'?'decent',yes,yes,yes,partial,yes,yes,yes,partial,partial,partial,1.0,0.8696,0.99131596,1,0,0,1
+HV_0536,SentiSternth,496,P12_register,1,1,phrase-replacement,'pretty good'?'decent',yes,yes,yes,partial,yes,yes,yes,partial,partial,partial,1.0,0.8125,0.9944477,1,0,0,1
+HV_0537,movie,277,P12_register,1,1,phrase-replacement,'pretty good'?'decent',yes,yes,yes,partial,yes,yes,yes,partial,partial,partial,1.0,0.8125,0.9938252,1,0,0,1
+HV_0538,SemEval13,2069,P12_register,1,1,phrase-replacement,'pretty good'?'decent',yes,yes,yes,partial,yes,yes,yes,partial,partial,partial,1.0,0.85,0.9957379,1,0,0,1
+HV_0539,hobbit,190,P12_register,1,1,phrase-replacement,'pretty good'?'decent',yes,yes,yes,partial,yes,yes,yes,partial,partial,partial,1.0,0.8,0.99583215,1,0,0,1
+HV_0540,hobbit,257,P12_register,1,1,phrase-replacement,'pretty good'?'decent',yes,yes,yes,partial,yes,yes,yes,partial,partial,partial,0.7,0.625,0.99637187,1,0,0,0
+HV_0541,STS-gold,312,P12_register,1,1,phrase-replacement,'pretty good'?'decent',yes,yes,yes,partial,yes,yes,yes,partial,partial,partial,0.7,0.6667,0.98631036,1,0,0,0
+HV_0542,hobbit,259,P12_register,1,1,phrase-replacement,'pretty good'?'decent',yes,yes,yes,partial,yes,yes,yes,partial,partial,partial,0.7,0.4,0.9912464,1,0,0,0
+HV_0543,SemEval16,453,P12_register,1,1,phrase-replacement,'not bad'?'acceptable',yes,yes,borderline,partial,yes,no,yes,partial,yes,yes,1.0,0.9259,0.95230097,1,0,0,1
+HV_0544,archeage,369,P12_register,1,1,phrase-replacement,'not bad'?'acceptable',yes,yes,yes,partial,yes,yes,yes,partial,yes,yes,1.0,0.8421,0.9920108,1,0,0,1
+HV_0545,SemEval16,5040,P12_register,2,2,phrase-replacement,'lit'?'outstanding',partial,yes,no,no,unclear,no,partial,no,no,no,1.0,0.8667,0.97261274,0,0,0,1
+HV_0546,movie,553,P12_register,2,2,phrase-replacement,'crappy'?'of substandard quality',yes,yes,borderline,yes,yes,no,yes,yes,,yes,1.0,0.8182,0.9912341,1,1,1,1
+HV_0547,SemEval16,2729,P12_register,2,2,phrase-replacement,'fire'?'exceptional',partial,yes,no,no,unclear,no,partial,no,no,no,1.0,0.931,0.9533027,0,0,0,1
+HV_0548,Target-dependent,3144,P12_register,2,2,phrase-replacement,'sucks'?'is subpar',yes,yes,yes,partial,yes,yes,yes,partial,yes,yes,1.0,0.8333,0.41976774,1,0,0,1
+HV_0549,Target-dependent,3331,P12_register,2,2,phrase-replacement,'sick'?'impressive',partial,no,no,no,no,no,partial,no,no,no,1.0,0.8889,0.052664313,0,0,0,1
+HV_0550,sanders,1072,P12_register,2,2,phrase-replacement,'sucks'?'is subpar',yes,yes,yes,partial,yes,yes,yes,partial,yes,yes,1.0,0.8846,0.9614542,1,0,0,1
+HV_0551,person,213,P12_register,2,2,phrase-replacement,'fave'?'favorite',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8824,0.9950649,1,1,1,1
+HV_0552,SemEval17,1838,P12_register,2,2,phrase-replacement,'legit'?'genuinely',yes,yes,borderline,yes,yes,no,yes,yes,,yes,1.0,0.8889,0.992882,1,1,1,1
+HV_0553,SemEval16,7187,P12_register,2,2,phrase-replacement,'tight'?'well-executed',yes,yes,borderline,partial,unclear,borderline,yes,partial,partial,partial,1.0,0.8636,0.54872113,1,0,0,1
+HV_0554,sanders,1022,P12_register,2,2,phrase-replacement,'sucks'?'is subpar',yes,yes,yes,partial,yes,yes,yes,partial,yes,yes,1.0,0.85,0.9842078,1,0,0,1
+HV_0555,STS-gold,1727,P12_register,2,2,phrase-replacement,'sick'?'impressive',no,no,no,no,no,no,no,no,,no,1.0,0.9167,0.026904851,0,0,0,1
+HV_0556,archeage,1482,P12_register,2,2,phrase-replacement,'blah'?'unengaging',partial,yes,no,partial,yes,borderline,partial,partial,,partial,1.0,0.8824,0.20985146,0,0,0,1
+HV_0557,SemEval16,8538,P12_register,2,2,phrase-replacement,'fire'?'exceptional',yes,yes,borderline,yes,yes,borderline,yes,yes,,yes,1.0,0.9091,0.07583893,1,1,1,1
+HV_0558,sentiment140,222,P12_register,2,2,phrase-replacement,'sucks'?'is subpar',yes,yes,yes,partial,yes,yes,yes,partial,yes,yes,0.45,0.25,0.83200365,1,0,0,0
+HV_0559,SemEval17,1082,P12_register,2,2,phrase-replacement,'legit'?'genuinely',yes,yes,borderline,partial,unclear,no,yes,partial,partial,partial,0.7,0.7778,0.9715101,1,0,0,0
+HV_0560,SentiSternth,601,P12_register,2,2,phrase-replacement,'fav'?'favorite',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.8667,0.99369544,1,1,1,1
+HV_0561,SentiSternth,1682,P12_register,3,3,phrase-replacement,'trash'?'of poor quality',yes,yes,yes,partial,yes,no,yes,partial,yes,yes,1.0,0.8667,0.9890097,1,0,0,1
+HV_0562,STS-gold,1586,P12_register,3,3,phrase-replacement,'crap'?'of poor quality',yes,yes,borderline,partial,yes,no,yes,partial,partial,partial,1.0,0.84,0.99193597,1,0,0,1
+HV_0563,SemEval17,4347,P12_register,3,3,phrase-replacement,'trash'?'of poor quality',partial,yes,no,no,unclear,no,partial,no,no,no,1.0,0.8333,0.89556015,0,0,0,1
+HV_0564,SemEval16,10318,P12_register,3,3,phrase-replacement,'crap'?'of poor quality',yes,yes,yes,partial,yes,yes,yes,partial,yes,yes,1.0,0.8462,0.98441744,1,0,0,1
+HV_0565,SemEval17,5779,P12_register,3,3,phrase-replacement,'trash'?'of poor quality',yes,yes,yes,partial,yes,no,yes,partial,partial,partial,0.7,0.7895,0.71443385,1,0,0,0
+HV_0566,VADER,3795,P12_register,3,3,phrase-replacement,'crap'?'of poor quality',yes,yes,borderline,partial,yes,no,yes,partial,no,partial,1.0,0.8,0.9809457,1,0,0,1
+HV_0567,archeage,1039,P12_register,3,3,phrase-replacement,'crap'?'of poor quality',yes,yes,borderline,partial,yes,no,yes,partial,partial,partial,1.0,0.84,0.9921914,1,0,0,1
+HV_0568,VADER,3916,P12_register,3,3,phrase-replacement,'crap'?'of poor quality',partial,yes,no,partial,yes,no,partial,partial,,partial,0.7,0.7778,0.04857667,0,0,0,0
+HV_0569,STS-gold,1761,P12_register,3,3,phrase-replacement,'banging'?'outstanding',no,no,no,no,unclear,no,no,no,,no,1.0,0.8947,0.6231753,0,0,0,1
+HV_0570,SemEval17,5110,P12_register,3,3,phrase-replacement,'waste'?'poor use of resources',partial,yes,no,partial,yes,no,partial,partial,,partial,1.0,0.8,0.9881798,0,0,0,1
+HV_0571,debate08,934,P12_register,3,3,phrase-replacement,'crap'?'of poor quality',yes,yes,borderline,partial,yes,no,yes,partial,partial,partial,1.0,0.8333,0.9856698,1,0,0,1
+HV_0572,movie,157,P12_register,3,3,phrase-replacement,'blown away'?'deeply impressed',yes,yes,yes,yes,yes,yes,yes,yes,,yes,1.0,0.9231,0.9564465,1,1,1,1
+HV_0573,debate08,1270,P12_register,3,3,phrase-replacement,'crap'?'of poor quality',partial,yes,no,partial,yes,no,partial,partial,,partial,1.0,0.88,0.6077619,0,0,0,1
+HV_0574,sanders,1102,P12_register,3,3,phrase-replacement,'crap'?'of poor quality',yes,yes,yes,partial,yes,borderline,yes,partial,yes,yes,1.0,0.8696,0.9875475,1,0,0,1
+HV_0575,SemEval16,10862,P12_register,3,3,phrase-replacement,'trash'?'of poor quality',partial,yes,no,no,unclear,no,partial,no,no,no,1.0,0.88,0.34196275,0,0,0,1
+HV_0576,narr,79,P12_register,3,3,phrase-replacement,'crap'?'of poor quality',yes,yes,borderline,partial,yes,yes,yes,partial,yes,yes,1.0,0.88,0.9849231,1,0,0,1

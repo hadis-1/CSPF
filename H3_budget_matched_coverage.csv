@@ -1,0 +1,7 @@
+quantity,estimate,ci_lo,ci_hi
+baseline_exposes,0.1135,0.1013,0.127
+cspf_exposes,0.087,0.0795,0.0954
+cspf_only,0.0491,0.0441,0.0545
+baseline_only,0.0756,0.0662,0.0858
+both,0.0379,0.0329,0.043
+cspf_only_share_of_cspf,0.5644,0.5298,0.6067

@@ -1,0 +1,17 @@
+model,huggingface_checkpoint,training_data_model_card,exposure_note
+RoBERTa,Etelis/Sentiment140_roBERTa_5E,Twitter (Sentiment140),"Etelis Sentiment140 checkpoint; evaluation set Sentiment140 is the manually labelled test portion; no overlap expected, not verified"
+XLNet,Etelis/Sentiment140_XLNET_5E,Twitter (Sentiment140),as RoBERTa (Sentiment140)
+ELECTRA,Etelis/Sentiment140_ELECTRA_5E,Twitter (Sentiment140),as RoBERTa (Sentiment140)
+DistilBERT,Etelis/Sentiment140_DistilBERT_5E,Twitter (Sentiment140),as RoBERTa (Sentiment140)
+ALBERT,Etelis/Sentiment140_ALBERT_5E,Twitter (Sentiment140),as RoBERTa (Sentiment140)
+BERT,Etelis/Sentiment140_BERT_5E,Twitter (Sentiment140),as RoBERTa (Sentiment140)
+GPT2,ashok2216/gpt2-amazon-sentiment-classifier-V1.0,Amazon reviews,review data; no known overlap with tweet datasets
+T5,michelecafagna26/t5-base-finetuned-sst2-sentiment,movie reviews (SST-2),review data (SST-2); no known overlap
+SiEBERT-large,siebert/sentiment-roberta-large-english,mixed reviews/tweets (15 datasets),"trained on 15 datasets incl. SemEval-2013 (SemEval13), 2008 debate tweets (Debate08) and HCR tweets; held-out part unspecified"
+TwRoBERTa-latest,cardiffnlp/twitter-roberta-base-sentiment-latest,"Twitter (124M tweets, TweetEval)",TweetEval sentiment (SemEval-2017 data): 89.5% of SemEval13 and 91.9% of SemEval16 tweets in train/val; SemEval17 = test split
+BERTweet,finiteautomata/bertweet-base-sentiment-analysis,Twitter (SemEval-2017),"SemEval-2017 corpus (about 40,000 tweets): same overlap as TwRoBERTa-latest"
+XLM-R-Twitter,cardiffnlp/twitter-xlm-roberta-base-sentiment,"Twitter, multilingual",multilingual benchmark with English = SemEval-2017: same overlap (splits not specified)
+DistilBERT-SST2,distilbert-base-uncased-finetuned-sst-2-english,movie reviews (SST-2),review data (SST-2); no known overlap
+RoBERTa-SST2,textattack/roberta-base-SST-2,movie reviews (SST-2),review data (SST-2); no known overlap
+DistilBERT-IMDb,lvwerra/distilbert-imdb,movie reviews (IMDb),review data (IMDb); no known overlap
+ModernBERT-sent,clapAI/modernBERT-base-multilingual-sentiment,multilingual sentiment (ModernBERT),clapAI/MultiLingualSentiment; composition not traced (unknown)

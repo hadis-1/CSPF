@@ -1,0 +1,11 @@
+# lower bounds only; the versions actually used are recorded by scripts/print_environment.py on the Colab runtime
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+sentence-transformers
+transformers
+torch
+datasets
+nbformat

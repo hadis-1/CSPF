@@ -1,0 +1,10 @@
+subset,rule,share_pass,P_yes_given_pass,P_no_given_pass,recall_of_yes
+all 325,Phi pass (M1 >= 0.80),0.991,0.165,0.13,0.981
+all 325,NLI-bi >= 0.5,0.646,0.21,0.1,0.815
+all 325,NLI-bi >= 0.9,0.489,0.252,0.075,0.741
+independent 192,Phi pass (M1 >= 0.80),0.99,0.168,0.105,1.0
+independent 192,NLI-bi >= 0.5,0.578,0.225,0.081,0.781
+independent 192,NLI-bi >= 0.9,0.401,0.286,0.052,0.688
+disputed 133,Phi pass (M1 >= 0.80),0.992,0.159,0.167,0.955
+disputed 133,NLI-bi >= 0.5,0.744,0.192,0.121,0.864
+disputed 133,NLI-bi >= 0.9,0.617,0.22,0.098,0.818

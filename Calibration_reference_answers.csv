@@ -1,0 +1,13 @@
+sample_id,content_same,strength_same,sentiment,natural,why
+CAL_01,yes,yes,yes,yes,Only a determiner changed.
+CAL_02,yes,no,yes,yes,"Same fact, but the hedge weakens how strongly it is said -> strength no."
+CAL_03,no,yes,yes,yes,The event changed -> content no (sentiment word is still positive).
+CAL_04,yes,yes,yes,yes,Near-synonym of equal strength.
+CAL_05,yes,no,yes,yes,"Same stance, clearly weaker -> strength no."
+CAL_06,no,no,no,yes,"Polarity reversed -> sentiment no, content no."
+CAL_07,yes,yes,yes,no,Meaning is still recoverable; the text is ungrammatical -> natural no. Judge meaning independently of naturalness.
+CAL_08,yes,no,yes,yes,'Somewhat' weakens the claim.
+CAL_09,no,no,no,yes,Opposite stance.
+CAL_10,no,yes,yes,yes,Different event.
+CAL_11,yes,yes,yes,borderline,"One typo, fully readable."
+CAL_12,yes,yes,yes,yes,Article dropped; informal but fine.

@@ -1,0 +1,13 @@
+family,n,metric,CSPF,naive_random_position,diff,ci_lo,ci_hi
+P01_hedging,2500,NLI-bi (higher = more equivalent),0.32010000944137573,0.3091000020503998,0.010999999940395355,-0.0019000000320374966,0.022700000554323196
+P01_hedging,2500,share NLI-bi >= 0.9,0.1168,0.0648,0.052,0.0388,0.0668
+P01_hedging,2500,GPT-2 perplexity ratio (lower = more fluent),0.9488,1.362,-0.4132,-0.4479,-0.3809
+P01_hedging,2500,flip rate (mean of 3 models),0.0663,0.0635,0.0028,-0.0036,0.0092
+P04_sarcasm,2500,NLI-bi (higher = more equivalent),0.11969999969005585,0.2809000015258789,-0.16120000183582306,-0.17159999907016754,-0.15060000121593475
+P04_sarcasm,2500,share NLI-bi >= 0.9,0.0076,0.0696,-0.062,-0.0716,-0.0528
+P04_sarcasm,2500,GPT-2 perplexity ratio (lower = more fluent),0.8786,1.2849,-0.4062,-0.4335,-0.3821
+P04_sarcasm,2500,flip rate (mean of 3 models),0.0972,0.0884,0.0088,0.0024,0.0153
+both,5000,NLI-bi (higher = more equivalent),0.2198999971151352,0.29499998688697815,-0.07509999722242355,-0.08370000123977661,-0.06639999896287918
+both,5000,share NLI-bi >= 0.9,0.0622,0.0672,-0.005,-0.0134,0.0034
+both,5000,GPT-2 perplexity ratio (lower = more fluent),0.9137,1.3234,-0.4097,-0.432,-0.3898
+both,5000,flip rate (mean of 3 models),0.0817,0.0759,0.0058,0.0013,0.0101
